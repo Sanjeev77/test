@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<!-- Homepage -->
+<url>
+  <loc>https://www.giftonbudget.com/</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/index.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.95</priority>
+</url>
+
+<!-- Special Offers & Budget Categories -->
+<url>
+  <loc>https://www.giftonbudget.com/pages/special-offers.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/cfda-awards-2025-celebrity-looks.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/amazon-gifts-under-10-dollars.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/amazon-gifts-under-25-dollars.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/amazon-gifts-under-50-dollars.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/amazon-gifts-under-100-dollars.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+
+<!-- Main Category Pages -->
+<url>
+  <loc>https://www.giftonbudget.com/pages/appliances.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/automotive.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/baby-essentials.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/beauty.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/books.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/electronics.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/fashion.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/health-personal-care.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/home-kitchen.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/pet-supplies.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/sports-outdoors.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/toys-games.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<!-- Gift Ideas by Recipient -->
+<url>
+  <loc>https://www.giftonbudget.com/pages/anniversary-gifts.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/baby-shower-gifts.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/birthday-gift-ideas.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/birthday-gifts-for-her.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/birthday-gifts-for-him.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/birthday-gifts-for-moms.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/birthday-gifts-for-dads.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/birthday-gifts-for-best-friends.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/birthday-gifts-for-girlfriends.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/birthday-gifts-for-couples.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/birthday-gifts-for-coworkers.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/birthday-gifts-for-grandparents.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/birthday-gifts-for-teachers.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/birthday-gifts-for-someone-who-has-everything.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/funny-birthday-gifts.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/personalized-birthday-gifts.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/last-minute-birthday-gifts.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/luxury-birthday-gifts.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/experience-birthday-gifts.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/eco-friendly-birthday-gifts.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/bridal-shower-gifts.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/gift-ideas-for-her.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/gifts-for-coworkers.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/gifts-for-new-moms.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/gifts-for-newborns.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/gifts-for-infants.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/gifts-for-teens.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/gifts-for-tweens.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/housewarming-gifts.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/retirement-gifts.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<!-- Holiday Gifts -->
+<url>
+  <loc>https://www.giftonbudget.com/pages/christmas-gifts.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/valentines-day-gifts.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/mothers-day-gifts.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/fathers-day-gifts.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/easter-gifts.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/halloween-gifts.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/thanksgiving-gifts.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/new-year-gifts.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/independence-day-gifts.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/secret-santa-gifts.html</loc>
+  <lastmod>2025-11-11T09:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<!-- Gifts by Age -->
+<url>
+  <loc>https://www.giftonbudget.com/pages/gifts-for-1-year-olds.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/gifts-for-2-year-olds.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/gifts-for-3-year-olds.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/gifts-for-4-year-olds.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/gifts-for-5-year-olds.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/gifts-for-6-year-olds.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/gifts-for-7-year-olds.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/gifts-for-8-year-olds.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/gifts-for-9-year-olds.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/gifts-for-10-year-olds.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+
+<!-- Specific Product Categories -->
+<url>
+  <loc>https://www.giftonbudget.com/pages/3d-pens.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/board-games.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/board-games-kids-families.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/card-games.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/creative-diy-kits.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/diaries.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/digital-photo-frames.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/disposable-cameras.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/dna-test-kits.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/dog-dna-tests.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/drones.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/eco-friendly-gifts.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/educational-learning-toys.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/experience-gifts.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/flower-delivery.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/gift-baskets.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/instant-cameras.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/instant-photo-printers.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/karaoke-machines.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/luxury-gifts.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/massage-guns.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/mug-warmers.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/mugs.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/outdoor-play-gifts.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/photo-gifts.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/smart-bird-feeders.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/smokeless-fire-pits.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/turntables-record-players.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/two-player-board-games.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/vr-headsets.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+
+<!-- Blog Pages -->
+<url>
+  <loc>https://www.giftonbudget.com/pages/blog/blog.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/pages/blog/post.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.65</priority>
+</url>
+
+<!-- Legal Pages -->
+<url>
+  <loc>https://www.giftonbudget.com/about-us.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/faq.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/privacy-policy.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.giftonbudget.com/terms-of-service.html</loc>
+  <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+</urlset>

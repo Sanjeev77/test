@@ -1,0 +1,40 @@
+# robots.txt for www.giftonbudget.com
+
+# Allow all search engine bots to crawl the site
+User-agent: *
+Allow: /
+
+# Block access to resource files (CSS, JS, images, etc.)
+Disallow: /css/
+Disallow: /js/
+Disallow: /*.css$
+Disallow: /*.js$
+
+# Block access to development and version control files
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /node_modules/
+Disallow: /.vscode/
+Disallow: /.env
+
+# Block access to admin or private directories if any
+Disallow: /admin/
+Disallow: /private/
+
+# Allow access to all HTML pages and content
+Allow: /pages/
+Allow: /legal/
+Allow: /index.html
+
+# Specific bots (Optional: Customize based on needs)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.giftonbudget.com/sitemap.xml

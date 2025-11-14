@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W1BPSKKPL1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-W1BPSKKPL1');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon.png">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎁</text></svg>">
+    <title>Gift On Budget - Find Perfect Gifts by Budget</title>
+    <meta name="description" content="Discover amazing gift ideas organized by budget - under $10, $50, $100 and more. Curated Amazon products for every occasion.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/new-layout.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Critical CSS to prevent FOUC -->
+    <style>
+        /* Hide footer links initially to prevent flash - except Company section */
+        .footer-column.collapsible .footer-links {
+            display: none !important;
+        }
+        /* Always show Company section links */
+        .footer-left .footer-links {
+            display: flex !important;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="header-wrapper">
+                <!-- Logo (Left Aligned) -->
+                <div class="logo">
+                    <a href="index.html">
+                        <i class="fas fa-gift"></i>
+                        <span>Gift On Budget</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Navigation Menu -->
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">
+                                Shop by Budget <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="pages/amazon-gifts-under-10-dollars.html">Under $10</a></li>
+                                <li><a href="pages/amazon-gifts-under-25-dollars.html">Under $25</a></li>
+                                <li><a href="pages/amazon-gifts-under-50-dollars.html">Under $50</a></li>
+                                <li><a href="pages/amazon-gifts-under-100-dollars.html">Under $100</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/blog/blog.html" class="nav-link">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Search Bar -->
+                <div class="header-search">
+                    <div class="search-container">
+                        <div class="category-dropdown-wrapper">
+                            <select id="category-select" class="category-dropdown">
+                                <option value="all" selected>All</option>
+                            <option value="appliances">Appliances</option>
+                            <option value="arts-crafts-sewing">Arts, Crafts & Sewing</option>
+                            <option value="automotive">Automotive</option>
+                            <option value="baby">Baby Essentials</option>
+                            <option value="beauty">Beauty</option>
+                            <option value="books">Books</option>
+                            <option value="collectibles-fine-arts">Collectibles & Fine Arts</option>
+                            <option value="electronics">Electronics</option>
+                            <option value="fashion">Fashion</option>
+                            <option value="clothing-shoes-jewelry">Clothing, Shoes & Jewelry</option>
+                            <option value="clothing-related">Clothing related (Baby / Kids / Men / Women)</option>
+                            <option value="gift-cards">Gift Cards</option>
+                            <option value="grocery-gourmet-food">Grocery & Gourmet Food</option>
+                            <option value="handmade">Handmade</option>
+                            <option value="health-personal-care">Health & Personal Care</option>
+                            <option value="home-kitchen">Home & Kitchen</option>
+                            <option value="industrial-scientific">Industrial & Scientific</option>
+                            <option value="kindle-store">Kindle Store</option>
+                            <option value="mugs">Mugs</option>
+                            <option value="patio-lawn-garden">Patio, Lawn & Garden</option>
+                            <option value="luggage-travel-gear">Luggage & Travel Gear</option>
+                            <option value="magazine-subscriptions">Magazine Subscriptions</option>
+                            <option value="apps-games">Apps & Games</option>
+                            <option value="movies-tv">Movies & TV</option>
+                            <option value="digital-music">Digital Music / CDs & Vinyl</option>
+                            <option value="musical-instruments">Musical Instruments</option>
+                            <option value="office-products">Office Products</option>
+                            <option value="computers">Computers</option>
+                            <option value="pet-supplies">Pet Supplies</option>
+                            <option value="sports-outdoors">Sports & Outdoors</option>
+                            <option value="tools-home-improvement">Tools & Home Improvement</option>
+                            <option value="toys-games">Toys & Games</option>
+                            <option value="video-games">Video Games</option>
+                            <option value="cell-phones-accessories">Cell Phones & Accessories</option>
+                            </select>
+                        </div>
+                        <input type="text" id="search" class="search-input" placeholder="Search for products..." />
+                        <button class="search-button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sub Header - Gift Collections -->
+    <div class="sub-header">
+        <div class="container">
+            <nav class="gift-collections-nav">
+                <ul class="gift-collections-list">
+                    <li class="gift-collection-item">
+                        <a href="pages/gift-ideas-for-her.html" class="gift-collection-link">
+                            <i class="fas fa-heart"></i>
+                            <span>Gift Ideas for Her</span>
+                        </a>
+                    </li>
+                    <li class="gift-collection-item dropdown">
+                        <a href="#" class="gift-collection-link dropdown-toggle">
+                            <i class="fas fa-birthday-cake"></i>
+                            <span>Birthday Gift Ideas</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-header-wrapper">
+                                <button class="dropdown-close" aria-label="Close dropdown">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                            <div class="dropdown-content-wrapper">
+                                <div class="dropdown-column">
+                                    <div class="dropdown-header">Birthday Gifts for Loved Ones</div>
+                                    <a href="pages/birthday-gifts-for-him.html">Birthday gifts for him</a>
+                                    <a href="pages/birthday-gifts-for-girlfriends.html">Birthday gifts for girlfriends</a>
+                                    <a href="pages/birthday-gifts-for-moms.html">Birthday gifts for moms</a>
+                                    <a href="pages/birthday-gifts-for-dads.html">Birthday gifts for dads</a>
+                                    <a href="pages/birthday-gifts-for-grandparents.html">Birthday gifts for grandparents</a>
+                                    <a href="pages/birthday-gifts-for-best-friends.html">Birthday gifts for best friends</a>
+                                    <a href="pages/birthday-gifts-for-couples.html">Birthday gifts for couples</a>
+                                    <a href="pages/birthday-gifts-for-coworkers.html">Birthday gifts for coworkers</a>
+                                    <a href="pages/birthday-gifts-for-teachers.html">Birthday gifts for teachers</a>
+                                </div>
+                                <div class="dropdown-column">
+                                    <div class="dropdown-header">Birthday Gift Styles</div>
+                                    <a href="pages/personalized-birthday-gifts.html">Personalized birthday gifts</a>
+                                    <a href="pages/funny-birthday-gifts.html">Funny birthday gifts</a>
+                                    <a href="pages/luxury-birthday-gifts.html">Luxury birthday gifts</a>
+                                    <a href="pages/experience-birthday-gifts.html">Experience birthday gifts</a>
+                                    <a href="pages/eco-friendly-birthday-gifts.html">Eco-friendly birthday gifts</a>
+                                    <a href="pages/last-minute-birthday-gifts.html">Last-minute birthday gifts</a>
+                                    <a href="pages/birthday-gifts-for-someone-who-has-everything.html">Birthday gifts for someone who has everything</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gift-collection-item dropdown">
+                        <a href="#" class="gift-collection-link dropdown-toggle">
+                            <i class="fas fa-star"></i>
+                            <span>Gifts by Occasion</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-header-wrapper">
+                                <button class="dropdown-close" aria-label="Close dropdown">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                            <div class="dropdown-content-wrapper">
+                                <div class="dropdown-column">
+                                    <div class="dropdown-header">For Occasions</div>
+                                <a href="pages/housewarming-gifts.html">Housewarming gifts</a>
+                                <a href="pages/anniversary-gifts.html">Anniversary gifts</a>
+                                <a href="pages/retirement-gifts.html">Retirement gifts</a>
+                                <a href="pages/bridal-shower-gifts.html">Bridal shower gifts</a>
+                                <a href="pages/baby-shower-gifts.html">Baby shower gifts</a>
+                                <a href="pages/flower-delivery.html">Flower delivery</a>
+                                <a href="pages/gift-baskets.html">Gift baskets</a>
+                                <a href="pages/photo-gifts.html">Photo gifts</a>
+                            </div>
+                            <div class="dropdown-column">
+                                <div class="dropdown-header">Holiday Gifts</div>
+                                <a href="pages/new-year-gifts.html">New Year gifts</a>
+                                <a href="pages/valentines-day-gifts.html">Valentine's Day gifts</a>
+                                <a href="pages/mothers-day-gifts.html">Mother's Day gifts</a>
+                                <a href="pages/fathers-day-gifts.html">Father's Day gifts</a>
+                                <a href="pages/easter-gifts.html">Easter gifts</a>
+                                <a href="pages/independence-day-gifts.html">Independence Day gifts</a>
+                                <a href="pages/thanksgiving-gifts.html">Thanksgiving gifts</a>
+                                <a href="pages/halloween-gifts.html">Halloween gifts</a>
+                                <a href="pages/christmas-gifts.html">Christmas gifts</a>
+                                <a href="pages/secret-santa-gifts.html">Secret Santa gifts</a>
+                            </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gift-collection-item dropdown">
+                        <a href="#" class="gift-collection-link dropdown-toggle">
+                            <i class="fas fa-child"></i>
+                            <span>Fun Kid's Gifts</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-header-wrapper">
+                                <button class="dropdown-close" aria-label="Close dropdown">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                            <div class="dropdown-content-wrapper">
+                                <div class="dropdown-column">
+                                    <div class="dropdown-header">Ages 0-6</div>
+                                <a href="pages/gifts-for-newborns.html">Gifts for newborns</a>
+                                <a href="pages/gifts-for-infants.html">Gifts for infants</a>
+                                <a href="pages/gifts-for-1-year-olds.html">Gifts for 1-year-olds</a>
+                                <a href="pages/gifts-for-2-year-olds.html">Gifts for 2-year-olds</a>
+                                <a href="pages/gifts-for-3-year-olds.html">Gifts for 3-year-olds</a>
+                                <a href="pages/gifts-for-4-year-olds.html">Gifts for 4-year-olds</a>
+                                <a href="pages/gifts-for-5-year-olds.html">Gifts for 5-year-olds</a>
+                                <a href="pages/gifts-for-6-year-olds.html">Gifts for 6-year-olds</a>
+                            </div>
+                            <div class="dropdown-column">
+                                <div class="dropdown-header">Ages 7 & Up</div>
+                                <a href="pages/gifts-for-7-year-olds.html">Gifts for 7-year-olds</a>
+                                <a href="pages/gifts-for-8-year-olds.html">Gifts for 8-year-olds</a>
+                                <a href="pages/gifts-for-9-year-olds.html">Gifts for 9-year-olds</a>
+                                <a href="pages/gifts-for-10-year-olds.html">Gifts for 10-year-olds</a>
+                                <a href="pages/gifts-for-tweens.html">Gifts for tweens</a>
+                                <a href="pages/gifts-for-teens.html">Gifts for teens</a>
+                            </div>
+                            <div class="dropdown-column">
+                                <div class="dropdown-header">By Interest</div>
+                                <a href="pages/educational-learning-toys.html">Educational & learning toys</a>
+                                <a href="pages/outdoor-play-gifts.html">Outdoor play gifts</a>
+                                <a href="pages/creative-diy-kits.html">Creative & DIY kits</a>
+                            </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gift-collection-item dropdown">
+                        <a href="#" class="gift-collection-link dropdown-toggle">
+                            <i class="fas fa-trophy"></i>
+                            <span>Top Gift Ideas</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-header-wrapper">
+                                <button class="dropdown-close" aria-label="Close dropdown">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                            <div class="dropdown-content-wrapper">
+                                <div class="dropdown-column">
+                                    <div class="dropdown-header">Tech Gifts</div>
+                                <a href="pages/digital-photo-frames.html">Digital photo frames</a>
+                                <a href="pages/instant-cameras.html">Instant cameras</a>
+                                <a href="pages/instant-photo-printers.html">Instant photo printers</a>
+                                <a href="pages/turntables-record-players.html">Turntables & record players</a>
+                                <a href="pages/drones.html">Drones</a>
+                                <a href="pages/vr-headsets.html">VR headsets</a>
+                                <a href="pages/massage-guns.html">Massage guns</a>
+                                <a href="pages/karaoke-machines.html">Karaoke machines</a>
+                                <a href="pages/3d-pens.html">3D pens</a>
+                            </div>
+                            <div class="dropdown-column">
+                                <div class="dropdown-header">Games & Fun</div>
+                                <a href="pages/board-games.html">Board games</a>
+                                <a href="pages/two-player-board-games.html">Two-player board games</a>
+                                <a href="pages/board-games-kids-families.html">Board games for kids & families</a>
+                                <a href="pages/card-games.html">Card games</a>
+                                <div class="dropdown-header">Personalized & Curious Gifts</div>
+                                <a href="pages/dna-test-kits.html">DNA test kits</a>
+                                <a href="pages/dog-dna-tests.html">Dog DNA tests</a>
+                            </div>
+                            <div class="dropdown-column">
+                                <div class="dropdown-header">Cool Home Finds</div>
+                                <a href="pages/smokeless-fire-pits.html">Smokeless fire pits</a>
+                                <a href="pages/mug-warmers.html">Mug warmers</a>
+                                <a href="pages/smart-bird-feeders.html">Smart bird feeders</a>
+                                <a href="pages/disposable-cameras.html">Disposable cameras</a>
+                                <div class="dropdown-header">Trending Gift Ideas</div>
+                                <a href="pages/experience-gifts.html">Experience gifts</a>
+                                <a href="pages/eco-friendly-gifts.html">Eco-friendly gifts</a>
+                                <a href="pages/luxury-gifts.html">Luxury gifts</a>
+                            </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gift-collection-item dropdown">
+                        <a href="#" class="gift-collection-link dropdown-toggle">
+                            <i class="fas fa-tags"></i>
+                            <span>Exclusive Gift Deals</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-header-wrapper">
+                                <button class="dropdown-close" aria-label="Close dropdown">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                            <div class="dropdown-content-wrapper">
+                                <div class="dropdown-column">
+                                    <a href="pages/cfda-awards-2025-celebrity-looks.html">CFDA Awards 2025 Celebrity Looks</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <!-- Desktop Layout Container -->
+        <div class="ads-layout">
+            <!-- Left Sidebar (desktop only) -->
+            <div class="left-sidebar">
+                <!-- Vertical -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-5970109164913530"
+                     data-ad-slot="3568950891"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                    try {
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                } catch (e) {
+                    console.warn('AdSense error:', e);
+                }
+                </script>
+            </div>
+
+            <!-- Main Content -->
+            <div class="main-content">
+        <!-- Affiliate Disclosure Section -->
+        <section class="affiliate-disclosure-banner">
+            <div class="container">
+                <div class="disclosure-content">
+                    <div class="disclosure-animation" id="lottie-left"></div>
+                    <h2 class="disclosure-headline">We help you find the perfect gifts<br class="mobile-break"> for the people you love.</h2>
+                    <div class="disclosure-animation" id="lottie-right"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hero Banner Section with Overlay - Auto-rotates based on season! -->
+        <!-- Banner content is automatically updated by banner-manager.js -->
+        <section class="hero-banner-new" data-banner-id="default">
+            <a href="pages/special-offers.html" class="hero-banner-link">
+                <picture class="hero-banner-picture">
+                    <source media="(max-width: 768px)" srcset="images/banner-mobile.jpg">
+                    <source media="(min-width: 769px)" srcset="images/banner-desktop.jpg">
+                    <img src="images/banner-desktop.jpg" alt="Special Offers" class="hero-banner-img">
+                </picture>
+                <div class="hero-overlay">
+                    <div class="container">
+                        <div class="hero-content">
+                            <h1 class="hero-title-new">Halloween Deals & Gifts</h1>
+                            <p class="hero-subtitle-new">2025 Amazon's top Halloween gifts for everyone on your list!</p>
+                            <span class="hero-cta-btn"><span class="btn-inner">Shop Special Gifts</span></span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </section>
+
+        <!-- Special Products Icons (Circular) -->
+        <section class="special-products-icons">
+            <div class="container">
+                <h2 class="section-title">Today's Picks</h2>
+                <div class="special-products-wrapper">
+                    <button class="nav-arrow nav-arrow-left" id="special-products-left" aria-label="Scroll left">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="special-products-scroll" id="special-products-icons">
+                        <!-- Products will be loaded dynamically from backend -->
+                    </div>
+                    <button class="nav-arrow nav-arrow-right" id="special-products-right" aria-label="Scroll right">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gift Cards Section (Budget Section) -->
+        <section class="gift-cards-section">
+            <div class="container">
+                <h2 class="section-title">Shop by Budget</h2>
+                <p class="section-subtitle">Find perfect gifts for every budget</p>
+                <div class="gift-cards-grid">
+                    <a href="pages/amazon-gifts-under-10-dollars.html" class="gift-card" data-budget="under-10">
+                        <div class="gift-card-icon">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <h3 class="gift-card-title">Gifts Under $10</h3>
+                        <p class="gift-card-description">Budget-friendly finds that make perfect gifts</p>
+                        <div class="gift-card-cta">Shop Now</div>
+                    </a>
+
+                    <a href="pages/amazon-gifts-under-25-dollars.html" class="gift-card" data-budget="under-25">
+                        <div class="gift-card-icon">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <h3 class="gift-card-title">Gifts Under $25</h3>
+                        <p class="gift-card-description">Great value gifts for any occasion</p>
+                        <div class="gift-card-cta">Shop Now</div>
+                    </a>
+
+                    <a href="pages/amazon-gifts-under-50-dollars.html" class="gift-card" data-budget="under-50">
+                        <div class="gift-card-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3 class="gift-card-title">Gifts Under $50</h3>
+                        <p class="gift-card-description">Premium gifts that show you care</p>
+                        <div class="gift-card-cta">Shop Now</div>
+                    </a>
+
+                    <a href="pages/amazon-gifts-under-100-dollars.html" class="gift-card" data-budget="under-100">
+                        <div class="gift-card-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="gift-card-title">Gifts Under $100</h3>
+                        <p class="gift-card-description">Luxurious gifts for special moments</p>
+                        <div class="gift-card-cta">Shop Now</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Promotional Banner Section (2 Banners) -->
+        <section class="banner-section dual-banners">
+            <div class="container">
+                <div class="banners-grid">
+                    <a href="pages/gift-ideas-for-her.html" class="banner-item">
+                        <picture class="banner-picture">
+                            <source media="(max-width: 768px)" srcset="images/gift-for-her-mobile.jpg">
+                            <source media="(min-width: 769px)" srcset="images/gift-for-her-desktop.jpg">
+                            <img src="images/gift-for-her-desktop.jpg" alt="Gift Ideas for Her" class="banner-img">
+                        </picture>
+                        <div class="banner-overlay">
+                            <div class="banner-content">
+                                <h2 class="banner-title">Gift Ideas for Her</h2>
+                                <p class="banner-subtitle">Thoughtful presents perfect for the special women in your life!</p>
+                                <span class="banner-cta-btn"><span class="btn-inner">Shop Gifts for Her</span></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="pages/birthday-gift-ideas.html" class="banner-item">
+                        <picture class="banner-picture">
+                            <source media="(max-width: 768px)" srcset="images/birthday-gift-mobile.jpg">
+                            <source media="(min-width: 769px)" srcset="images/birthday-gift-desktop.jpg">
+                            <img src="images/birthday-gift-desktop.jpg" alt="Birthday Gift Ideas" class="banner-img">
+                        </picture>
+                        <div class="banner-overlay">
+                            <div class="banner-content">
+                                <h2 class="banner-title">Birthday Gift Ideas</h2>
+                                <p class="banner-subtitle">Celebrate special birthdays with unique and memorable gifts!</p>
+                                <span class="banner-cta-btn"><span class="btn-inner">Shop Birthday Gifts</span></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section id="categories" class="categories-section">
+            <div class="container">
+                <h2 class="section-title">Shop by Category</h2>
+                <p class="section-subtitle">Browse our complete collection by product category</p>
+                <div class="categories-grid">
+                    <a href="pages/appliances.html" class="category-card" data-category="appliances">
+                        <img src="images/categories/appliances.jpg" alt="Appliances" class="category-card-image">
+                        <div class="category-card-content">
+                            <h3 class="category-card-title">Appliances</h3>
+                            <div class="category-card-arrow"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </a>
+
+                    <a href="pages/automotive.html" class="category-card" data-category="automotive">
+                        <img src="images/categories/automotive.jpg" alt="Automotive" class="category-card-image">
+                        <div class="category-card-content">
+                            <h3 class="category-card-title">Automotive</h3>
+                            <div class="category-card-arrow"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </a>
+
+                    <a href="pages/baby-essentials.html" class="category-card" data-category="baby">
+                        <img src="images/categories/baby-essentials.jpg" alt="Baby Essentials" class="category-card-image">
+                        <div class="category-card-content">
+                            <h3 class="category-card-title">Baby Essentials</h3>
+                            <div class="category-card-arrow"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </a>
+
+                    <a href="pages/beauty.html" class="category-card" data-category="beauty">
+                        <img src="images/categories/beauty.jpg" alt="Beauty" class="category-card-image">
+                        <div class="category-card-content">
+                            <h3 class="category-card-title">Beauty</h3>
+                            <div class="category-card-arrow"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </a>
+
+                    <a href="pages/books.html" class="category-card" data-category="books">
+                        <img src="images/categories/books.jpg" alt="Books" class="category-card-image">
+                        <div class="category-card-content">
+                            <h3 class="category-card-title">Books</h3>
+                            <div class="category-card-arrow"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </a>
+
+                    <a href="pages/diaries.html" class="category-card" data-category="diaries">
+                        <img src="images/categories/diaries.jpg" alt="Diaries" class="category-card-image">
+                        <div class="category-card-content">
+                            <h3 class="category-card-title">Diaries</h3>
+                            <div class="category-card-arrow"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </a>
+
+                    <a href="pages/electronics.html" class="category-card" data-category="electronics">
+                        <img src="images/categories/electronics.jpg" alt="Electronics" class="category-card-image">
+                        <div class="category-card-content">
+                            <h3 class="category-card-title">Electronics</h3>
+                            <div class="category-card-arrow"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </a>
+
+                    <a href="pages/fashion.html" class="category-card" data-category="fashion">
+                        <img src="images/categories/fashion.jpg" alt="Fashion" class="category-card-image">
+                        <div class="category-card-content">
+                            <h3 class="category-card-title">Fashion</h3>
+                            <div class="category-card-arrow"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </a>
+
+                    <a href="pages/health-personal-care.html" class="category-card" data-category="health-personal-care">
+                        <img src="images/categories/health-care.jpg" alt="Health & Care" class="category-card-image">
+                        <div class="category-card-content">
+                            <h3 class="category-card-title">Health & Care</h3>
+                            <div class="category-card-arrow"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </a>
+
+                    <a href="pages/home-kitchen.html" class="category-card" data-category="home-kitchen">
+                        <img src="images/categories/home-kitchen.jpg" alt="Home & Kitchen" class="category-card-image">
+                        <div class="category-card-content">
+                            <h3 class="category-card-title">Home & Kitchen</h3>
+                            <div class="category-card-arrow"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </a>
+
+                    <a href="pages/mugs.html" class="category-card" data-category="mugs">
+                        <img src="images/categories/mugs.jpg" alt="Mugs" class="category-card-image">
+                        <div class="category-card-content">
+                            <h3 class="category-card-title">Mugs</h3>
+                            <div class="category-card-arrow"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </a>
+
+                    <a href="pages/pet-supplies.html" class="category-card" data-category="pet-supplies">
+                        <img src="images/categories/pet-supplies.jpg" alt="Pet Supplies" class="category-card-image">
+                        <div class="category-card-content">
+                            <h3 class="category-card-title">Pet Supplies</h3>
+                            <div class="category-card-arrow"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </a>
+
+                    <a href="pages/sports-outdoors.html" class="category-card" data-category="sports-outdoors">
+                        <img src="images/categories/sports-outdoors.jpg" alt="Sports & Outdoors" class="category-card-image">
+                        <div class="category-card-content">
+                            <h3 class="category-card-title">Sports & Outdoors</h3>
+                            <div class="category-card-arrow"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </a>
+
+                    <a href="pages/toys-games.html" class="category-card" data-category="toys-games">
+                        <img src="images/categories/toys-games.jpg" alt="Toys & Games" class="category-card-image">
+                        <div class="category-card-content">
+                            <h3 class="category-card-title">Toys & Games</h3>
+                            <div class="category-card-arrow"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+            </div>
+
+            <!-- Right Sidebar (desktop only) -->
+            <div class="right-sidebar">
+                <!-- Vertical -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-5970109164913530"
+                     data-ad-slot="3568950891"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                    try {
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                } catch (e) {
+                    console.warn('AdSense error:', e);
+                }
+                </script>
+            </div>
+        </div>
+
+        <!-- Search Results Section (hidden by default) -->
+        <section id="search-results-section" class="search-results-section" style="display: none;">
+            <div class="container">
+                <h2 class="section-title">Search Results</h2>
+                <!-- Budget Filter Tabs -->
+                <div class="budget-filter-tabs">
+                    <div class="budget-navigation">
+                        <button class="budget-btn active" data-budget="all">
+                            <span>All</span>
+                        </button>
+                        <button class="budget-btn" data-budget="under-10">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>Under $10</span>
+                        </button>
+                        <button class="budget-btn" data-budget="under-25">
+                            <i class="fas fa-gem"></i>
+                            <span>Under $25</span>
+                        </button>
+                        <button class="budget-btn" data-budget="under-50">
+                            <i class="fas fa-heart"></i>
+                            <span>Under $50</span>
+                        </button>
+                        <button class="budget-btn" data-budget="under-100">
+                            <i class="fas fa-star"></i>
+                            <span>Under $100</span>
+                        </button>
+                    </div>
+                </div>
+                <div id="products-container"></div>
+                <button id="back-to-main" class="back-button">Back to Main</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="enhanced-footer">
+        <div class="container">
+            <!-- Footer Columns -->
+            <div class="footer-columns">
+                <!-- Left Side: Company Section -->
+                <div class="footer-left">
+                    <div class="footer-column">
+                        <ul class="footer-links">
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="terms-of-service.html">Terms of Service</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right Side: Collapsible Sections -->
+                <div class="footer-right">
+                <!-- Unique Adult Gifts Column -->
+                <div class="footer-column collapsible">
+                    <h3 class="footer-heading">
+                        Unique Adult Gifts
+                        <span class="footer-toggle">+</span>
+                    </h3>
+                    <ul class="footer-links">
+                        <li><a href="pages/housewarming-gifts.html">Housewarming gifts</a></li>
+                        <li><a href="pages/anniversary-gifts.html">Anniversary gifts</a></li>
+                        <li><a href="pages/retirement-gifts.html">Retirement gifts</a></li>
+                        <li><a href="pages/birthday-gifts-for-her.html">Birthday gifts for her</a></li>
+                        <li><a href="pages/birthday-gifts-for-him.html">Birthday gifts for him</a></li>
+                        <li><a href="pages/gifts-for-coworkers.html">Gifts for coworkers</a></li>
+                        <li><a href="pages/gifts-for-new-moms.html">Gifts for new moms</a></li>
+                        <li><a href="pages/bridal-shower-gifts.html">Bridal shower gifts</a></li>
+                        <li><a href="pages/baby-shower-gifts.html">Baby shower gifts</a></li>
+                        <li><a href="pages/flower-delivery.html">Flower delivery</a></li>
+                        <li><a href="pages/gift-baskets.html">Gift baskets</a></li>
+                        <li><a href="pages/photo-gifts.html">Photo gifts</a></li>
+                        <li><a href="pages/birthday-gifts-for-him.html">Birthday gifts for him</a></li>
+                        <li><a href="pages/birthday-gifts-for-girlfriends.html">Birthday gifts for girlfriends</a></li>
+                        <li><a href="pages/birthday-gifts-for-moms.html">Birthday gifts for moms</a></li>
+                        <li><a href="pages/birthday-gifts-for-dads.html">Birthday gifts for dads</a></li>
+                        <li><a href="pages/birthday-gifts-for-grandparents.html">Birthday gifts for grandparents</a></li>
+                        <li><a href="pages/birthday-gifts-for-someone-who-has-everything.html">Birthday gifts for someone who has everything</a></li>
+                        <li><a href="pages/birthday-gifts-for-couples.html">Birthday gifts for couples</a></li>
+                        <li><a href="pages/birthday-gifts-for-best-friends.html">Birthday gifts for best friends</a></li>
+                        <li><a href="pages/personalized-birthday-gifts.html">Personalized birthday gifts</a></li>
+                    </ul>
+                </div>
+
+                <!-- Fun Kids Gifts Column -->
+                <div class="footer-column collapsible">
+                    <h3 class="footer-heading">
+                        Fun Kids Gifts
+                        <span class="footer-toggle">+</span>
+                    </h3>
+                    <ul class="footer-links">
+                        <li><a href="pages/gifts-for-newborns.html">Gifts for newborns</a></li>
+                        <li><a href="pages/gifts-for-infants.html">Gifts for infants</a></li>
+                        <li><a href="pages/gifts-for-1-year-olds.html">Gifts for 1-year-olds</a></li>
+                        <li><a href="pages/gifts-for-2-year-olds.html">Gifts for 2-year-olds</a></li>
+                        <li><a href="pages/gifts-for-3-year-olds.html">Gifts for 3-year-olds</a></li>
+                        <li><a href="pages/gifts-for-4-year-olds.html">Gifts for 4-year-olds</a></li>
+                        <li><a href="pages/gifts-for-5-year-olds.html">Gifts for 5-year-olds</a></li>
+                        <li><a href="pages/gifts-for-6-year-olds.html">Gifts for 6-year-olds</a></li>
+                        <li><a href="pages/gifts-for-7-year-olds.html">Gifts for 7-year-olds</a></li>
+                        <li><a href="pages/gifts-for-8-year-olds.html">Gifts for 8-year-olds</a></li>
+                        <li><a href="pages/gifts-for-9-year-olds.html">Gifts for 9-year-olds</a></li>
+                        <li><a href="pages/gifts-for-10-year-olds.html">Gifts for 10-year-olds</a></li>
+                        <li><a href="pages/gifts-for-tweens.html">Gifts for tweens</a></li>
+                        <li><a href="pages/gifts-for-teens.html">Gifts for teens</a></li>
+                        <li><a href="pages/educational-learning-toys.html">Educational & learning toys</a></li>
+                        <li><a href="pages/outdoor-play-gifts.html">Outdoor play gifts</a></li>
+                        <li><a href="pages/creative-diy-kits.html">Creative & DIY kits</a></li>
+                    </ul>
+                </div>
+
+                <!-- Top Gift Ideas Column -->
+                <div class="footer-column collapsible">
+                    <h3 class="footer-heading">
+                        Top Gift Ideas
+                        <span class="footer-toggle">+</span>
+                    </h3>
+                    <ul class="footer-links">
+                        <li><a href="pages/digital-photo-frames.html">Digital photo frames</a></li>
+                        <li><a href="pages/instant-cameras.html">Instant cameras</a></li>
+                        <li><a href="pages/instant-photo-printers.html">Instant photo printers</a></li>
+                        <li><a href="pages/turntables-record-players.html">Turntables & record players</a></li>
+                        <li><a href="pages/drones.html">Drones</a></li>
+                        <li><a href="pages/vr-headsets.html">VR headsets</a></li>
+                        <li><a href="pages/massage-guns.html">Massage guns</a></li>
+                        <li><a href="pages/karaoke-machines.html">Karaoke machines</a></li>
+                        <li><a href="pages/3d-pens.html">3D pens</a></li>
+                        <li><a href="pages/board-games.html">Board games</a></li>
+                        <li><a href="pages/two-player-board-games.html">Two-player board games</a></li>
+                        <li><a href="pages/board-games-kids-families.html">Board games for kids & families</a></li>
+                        <li><a href="pages/card-games.html">Card games</a></li>
+                        <li><a href="pages/dna-test-kits.html">DNA test kits</a></li>
+                        <li><a href="pages/dog-dna-tests.html">Dog DNA tests</a></li>
+                        <li><a href="pages/smokeless-fire-pits.html">Smokeless fire pits</a></li>
+                        <li><a href="pages/mug-warmers.html">Mug warmers</a></li>
+                        <li><a href="pages/smart-bird-feeders.html">Smart bird feeders</a></li>
+                        <li><a href="pages/disposable-cameras.html">Disposable cameras</a></li>
+                        <li><a href="pages/experience-gifts.html">Experience gifts</a></li>
+                        <li><a href="pages/eco-friendly-gifts.html">Eco-friendly gifts</a></li>
+                        <li><a href="pages/luxury-gifts.html">Luxury gifts</a></li>
+                    </ul>
+                </div>
+
+                <!-- Shop by Budget Column -->
+                <div class="footer-column collapsible">
+                    <h3 class="footer-heading">
+                        Shop by Budget
+                        <span class="footer-toggle">+</span>
+                    </h3>
+                    <ul class="footer-links">
+                        <li><a href="pages/amazon-gifts-under-10-dollars.html">Gifts Under $10</a></li>
+                        <li><a href="pages/amazon-gifts-under-25-dollars.html">Gifts Under $25</a></li>
+                        <li><a href="pages/amazon-gifts-under-50-dollars.html">Gifts Under $50</a></li>
+                        <li><a href="pages/amazon-gifts-under-100-dollars.html">Gifts Under $100</a></li>
+                    </ul>
+                </div>
+
+                <!-- Popular Pages Column -->
+                <div class="footer-column collapsible">
+                    <h3 class="footer-heading">
+                        Popular Pages
+                        <span class="footer-toggle">+</span>
+                    </h3>
+                    <ul class="footer-links">
+                        <li><a href="pages/gift-ideas-for-her.html">Gift Ideas for Her</a></li>
+                        <li><a href="pages/birthday-gift-ideas.html">Birthday Gift Ideas</a></li>
+                        <li><a href="pages/special-offers.html">Special Offers</a></li>
+                        <li><a href="pages/banner-6.html">Exclusive Gift Deals</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p class="affiliate-notice">🔗 Contains affiliate links</p>
+                <p>&copy; 2025 Gift On Budget. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Go to Top Button -->
+    <button class="go-to-top" onclick="scrollToTop()" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Geolocation and Affiliate Link Scripts -->
+    <script src="js/geolocation.js"></script>
+    <script src="js/affiliate-config.js"></script>
+
+    <script src="js/productData.js"></script>
+
+    <!-- Seasonal Banner System - Auto-rotates banners based on dates -->
+    <script src="js/seasonal-banner-config.js"></script>
+    <script src="js/banner-manager.js"></script>
+
+    <!-- Product Files for Each Occasion -->
+    <script src="js/products/halloween-products.js"></script>
+    <script src="js/products/thanksgiving-products.js"></script>
+    <script src="js/products/secretsanta-products.js"></script>
+    <script src="js/products/christmas-products.js"></script>
+    <script src="js/products/newyear-products.js"></script>
+    <script src="js/products/valentines-products.js"></script>
+    <script src="js/products/easter-products.js"></script>
+    <script src="js/products/mothersday-products.js"></script>
+    <script src="js/products/fathersday-products.js"></script>
+    <script src="js/products/independenceday-products.js"></script>
+    <script src="js/products/default-products.js"></script>
+
+    <!-- Special Products Rotation Manager - Auto-rotates products every 12 hours -->
+    <script src="js/special-products-rotation.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <!-- Lottie Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+
+    <!-- Lottie Animation Data -->
+    <script>
+        // Paste your box animation JSON data here
+        const boxAnimationData =
+
+
+
+        // ADD YOUR JSON DATA HERE - Paste the entire contents of "box animation.json" file here
+
+
+
+        ;
+    </script>
+
+    <!-- Lottie Animation Initialization -->
+    <script>
+        // Initialize Lottie animations
+        document.addEventListener('DOMContentLoaded', function() {
+            try {
+                // Left animation
+                const lottieLeft = lottie.loadAnimation({
+                    container: document.getElementById('lottie-left'),
+                    renderer: 'svg',
+                    loop: true,
+                    autoplay: true,
+                    animationData: boxAnimationData = {"v":"5.6.10","fr":60,"ip":0,"op":180,"w":500,"h":700,"nm":"Comp 1","ddd":0,"assets":[],"layers":[{"ddd":0,"ind":2,"ty":3,"nm":"Null 2","sr":1,"ks":{"o":{"a":0,"k":0,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[235.904,386.066,0],"ix":2},"a":{"a":0,"k":[50,50,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":0,"op":12955,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"Layer 1","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0],"y":[0.25]},"o":{"x":[0.333],"y":[0]},"t":62,"s":[0]},{"i":{"x":[0.667],"y":[1]},"o":{"x":[1],"y":[0.75]},"t":99,"s":[166.511]},{"t":142,"s":[360]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.667,"y":1},"o":{"x":0.167,"y":0.167},"t":0,"s":[64.096,91.081,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.505,"y":1},"o":{"x":0.333,"y":0},"t":62,"s":[64.096,110.581,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.667,"y":1},"o":{"x":1,"y":0},"t":87,"s":[64.096,-169.419,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.667,"y":1},"o":{"x":0.167,"y":0},"t":142,"s":[64.096,126.581,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.667,"y":1},"o":{"x":0.333,"y":0},"t":153,"s":[64.096,81.081,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.667,"y":1},"o":{"x":0.333,"y":0},"t":159,"s":[64.096,98.581,0],"to":[0,0,0],"ti":[0,0,0]},{"t":165,"s":[64.096,91.081,0]}],"ix":2},"a":{"a":0,"k":[-242.032,4.648,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-25.176,-39.294],[25.176,-39.294],[25.176,39.294],[-25.176,39.294]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-242.032,31.767],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-11.046,0],[0,0],[0,-11.046],[0,0],[11.046,0],[0,0],[0,11.046],[0,0]],"o":[[0,0],[11.046,0],[0,0],[0,11.046],[0,0],[-11.046,0],[0,0],[0,-11.046]],"v":[[-124.706,-39.294],[124.706,-39.294],[144.706,-19.294],[144.706,19.294],[124.706,39.294],[-124.706,39.294],[-144.706,19.294],[-144.706,-19.294]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.952941179276,0.776470601559,0.494117647409,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-242.032,31.767],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":2,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,13.905],[-13.905,0],[0,-13.905],[13.905,0]],"o":[[0,-13.905],[13.905,0],[0,13.905],[-13.905,0]],"v":[[-25.176,0],[0,-25.176],[25.176,0],[0,25.176]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.952941179276,0.611764729023,0.070588238537,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-242.032,-11.24],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,23.746],[-23.746,0],[0,-23.746],[23.746,0]],"o":[[0,-23.746],[23.746,0],[0,23.746],[-23.746,0]],"v":[[-42.997,0],[0,-42.997],[42.997,0],[0,42.997]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.952941179276,0.854901969433,0.694117665291,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-197.558,-18.77],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":2,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,23.746],[-23.746,0],[0,-23.746],[23.746,0]],"o":[[0,-23.746],[23.746,0],[0,23.746],[-23.746,0]],"v":[[-42.997,0],[0,-42.997],[42.997,0],[0,42.997]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.952941179276,0.854901969433,0.694117665291,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-286.028,-18.77],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":2,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-286.028,-18.77],"ix":2},"a":{"a":0,"k":[-286.028,-18.77],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":3,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":12955,"st":0,"bm":0},{"ddd":0,"ind":4,"ty":4,"nm":"Isolation Mode 2","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[64.096,253.492,0],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-25.176,-96.151],[25.176,-96.151],[25.176,96.151],[-25.176,96.151]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.952941179276,0.854901969433,0.694117665291,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":12955,"st":0,"bm":0},{"ddd":0,"ind":5,"ty":4,"nm":"Isolation Mode","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[64.096,253.811,0],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":0,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[0,11.046],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[0,11.046],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-96.471],[121.176,-96.471],[121.176,0.123],[121.176,76.471],[101.176,96.471],[-101.176,96.471],[-121.176,76.471],[-121.176,-0.877]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":62,"s":[{"i":[[0,0],[0,0],[-3.176,-60],[0,0],[11.046,0],[0,0],[8.676,11.652],[-0.221,69.5]],"o":[[0,0],[0,0],[3.357,63.411],[-11.176,16.652],[0,0],[-11.046,0],[0,0],[0.176,-55.5]],"v":[[-121,-76.471],[121.353,-76.471],[144.676,-1.377],[135.676,75.971],[101.176,96.471],[-101.176,96.471],[-132.176,77.971],[-148.676,-1.877]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":73,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[-7.574,11.652],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[6.324,9.152],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-104.587],[121.176,-104.587],[100.176,0.123],[118.676,78.471],[101.176,96.471],[-101.176,96.471],[-115.176,76.221],[-106.426,-1.377]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":82,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[0,11.046],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[0,11.046],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-93.765],[121.176,-93.765],[123.176,0.123],[121.176,76.471],[101.176,96.471],[-101.176,96.471],[-121.176,76.471],[-125.176,-0.877]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":87,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[0,11.046],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[0,11.046],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-96.471],[121.176,-96.471],[121.176,0.123],[121.176,76.471],[101.176,96.471],[-101.176,96.471],[-121.176,76.471],[-121.176,-0.877]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":130,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[0,11.046],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[0,11.046],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-96.471],[121.176,-96.471],[121.176,0.123],[121.176,76.471],[101.176,96.471],[-101.176,96.471],[-121.176,76.471],[-121.176,-0.877]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":142,"s":[{"i":[[0,0],[0,0],[-3.176,-60],[0,0],[11.046,0],[0,0],[8.676,11.652],[-0.221,69.5]],"o":[[0,0],[0,0],[3.357,63.411],[-11.176,16.652],[0,0],[-11.046,0],[0,0],[0.176,-55.5]],"v":[[-121,-76.471],[121.353,-76.471],[144.676,-1.377],[135.676,75.971],[101.176,96.471],[-101.176,96.471],[-132.176,77.971],[-148.676,-1.877]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":147,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[0,11.046],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[0,11.046],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-96.471],[121.176,-96.471],[121.176,0.123],[121.176,76.471],[101.176,96.471],[-101.176,96.471],[-121.176,76.471],[-121.176,-0.877]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":153,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[-7.574,11.652],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[6.324,9.152],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-106.471],[121.176,-106.471],[100.176,0.123],[118.676,78.471],[101.176,96.471],[-101.176,96.471],[-115.176,76.221],[-106.426,-1.377]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":159,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[0,11.046],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[0,11.046],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-91.059],[121.176,-91.059],[128.752,0.123],[121.176,76.471],[101.176,96.471],[-101.176,96.471],[-121.176,76.471],[-128.752,-0.877]],"c":true}]},{"t":165,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[0,11.046],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[0,11.046],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-96.471],[121.176,-96.471],[121.176,0.123],[121.176,76.471],[101.176,96.471],[-101.176,96.471],[-121.176,76.471],[-121.176,-0.877]],"c":true}]}],"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.952941179276,0.611764729023,0.070588238537,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":12955,"st":0,"bm":0},{"ddd":0,"ind":6,"ty":4,"nm":"Layer 5","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.208],"y":[1]},"o":{"x":[0.333],"y":[0]},"t":47,"s":[-23]},{"t":98,"s":[0]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.208,"y":1},"o":{"x":0.333,"y":0},"t":47,"s":[75.24,213.431,0],"to":[0,0,0],"ti":[0,0,0]},{"t":98,"s":[105.24,160.931,0]}],"ix":2},"a":{"a":0,"k":[-201.857,206.997,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0.309,0.114],[-0.114,0.309],[0,0],[-0.309,-0.114],[0.114,-0.309],[0,0]],"o":[[-0.309,-0.114],[0,0],[0.114,-0.309],[0.309,0.114],[0,0],[-0.114,0.309]],"v":[[-1.822,4.953],[-2.175,4.189],[1.058,-4.6],[1.822,-4.953],[2.175,-4.189],[-1.058,4.6]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-234.317,177.559],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":1,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0.199,-0.54],[0.539,0.198],[-0.198,0.539],[-0.539,-0.198]],"o":[[-0.199,0.54],[-0.54,-0.199],[0.199,-0.54],[0.539,0.198]],"v":[[3.722,-5.773],[2.387,-5.156],[1.77,-6.491],[3.105,-7.109]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-1.483,-6.263],[-6.05,6.152],[1.483,8.923],[6.05,-3.492],[3.773,-8.923]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.988235294819,0.811764717102,0.06274510175,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-238.679,188.087],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":1,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-238.679,188.087],"ix":2},"a":{"a":0,"k":[-238.679,188.087],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[3.241,-21.388],[11.392,-18.389],[-3.241,21.388],[-11.392,18.389]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-211.272,203.533],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":1,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-23.331,-31.163],[37.964,-8.614],[23.331,31.163],[-37.964,8.614]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.415686279535,0.121568627656,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-211.271,203.533],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":1,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-2.065,-23.34],[16.698,-16.437],[2.065,23.34],[-16.698,16.437]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.666666686535,0.239215686917,0.066666670144,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-171.177,218.284],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 4","np":1,"cix":2,"bm":0,"ix":4,"mn":"ADBE Vector Group","hd":false}],"ip":47,"op":153,"st":47,"bm":0},{"ddd":0,"ind":7,"ty":4,"nm":"Layer 4","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.208],"y":[1]},"o":{"x":[0.333],"y":[0]},"t":55,"s":[27]},{"t":106,"s":[0]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.208,"y":1},"o":{"x":0.333,"y":0},"t":55,"s":[138.214,217.341,0],"to":[0,0,0],"ti":[0,0,0]},{"t":106,"s":[130.214,158.341,0]}],"ix":2},"a":{"a":0,"k":[-176.883,204.407,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-0.309,0.114],[0.114,0.309],[0,0],[0.309,-0.114],[-0.114,-0.309],[0,0]],"o":[[0.309,-0.114],[0,0],[-0.114,-0.309],[-0.309,0.114],[0,0],[0.114,0.309]],"v":[[1.822,4.953],[2.175,4.189],[-1.058,-4.6],[-1.822,-4.953],[-2.175,-4.189],[1.058,4.6]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-144.422,174.969],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":1,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-0.199,-0.54],[-0.539,0.198],[0.198,0.539],[0.539,-0.198]],"o":[[0.199,0.54],[0.54,-0.199],[-0.199,-0.54],[-0.539,0.198]],"v":[[-3.722,-5.773],[-2.387,-5.156],[-1.77,-6.491],[-3.105,-7.109]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[1.483,-6.263],[6.05,6.152],[-1.483,8.923],[-6.05,-3.492],[-3.773,-8.923]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.988235294819,0.811764717102,0.06274510175,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-140.06,185.497],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":1,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-140.06,185.497],"ix":2},"a":{"a":0,"k":[-140.06,185.497],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-3.241,-21.388],[-11.392,-18.389],[3.241,21.388],[11.392,18.389]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-167.468,200.943],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":1,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[23.331,-31.163],[-37.964,-8.614],[-23.331,31.163],[37.964,8.614]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.415686279535,0.121568627656,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-167.468,200.943],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":1,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[2.065,-23.34],[-16.698,-16.437],[-2.065,23.34],[16.698,16.437]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.666666686535,0.239215686917,0.066666670144,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-207.563,215.694],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 4","np":1,"cix":2,"bm":0,"ix":4,"mn":"ADBE Vector Group","hd":false}],"ip":89,"op":153,"st":55,"bm":0},{"ddd":0,"ind":8,"ty":4,"nm":"Layer 3","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.208],"y":[1]},"o":{"x":[0.333],"y":[0]},"t":47,"s":[24]},{"t":98,"s":[0]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.208,"y":1},"o":{"x":0.333,"y":0},"t":47,"s":[37.056,222.341,0],"to":[0,0,0],"ti":[0,0,0]},{"t":98,"s":[17.056,158.341,0]}],"ix":2},"a":{"a":0,"k":[-290.04,204.407,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-0.309,0.114],[0.114,0.309],[0,0],[0.309,-0.114],[-0.114,-0.309],[0,0]],"o":[[0.309,-0.114],[0,0],[-0.114,-0.309],[-0.309,0.114],[0,0],[0.114,0.309]],"v":[[1.822,4.953],[2.175,4.189],[-1.058,-4.6],[-1.822,-4.953],[-2.175,-4.189],[1.058,4.6]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-257.58,174.969],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":1,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-0.199,-0.54],[-0.539,0.198],[0.198,0.539],[0.539,-0.198]],"o":[[0.199,0.54],[0.54,-0.199],[-0.199,-0.54],[-0.539,0.198]],"v":[[-3.722,-5.773],[-2.387,-5.156],[-1.77,-6.491],[-3.105,-7.109]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[1.483,-6.263],[6.05,6.152],[-1.483,8.923],[-6.05,-3.492],[-3.773,-8.923]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.988235294819,0.811764717102,0.06274510175,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-253.218,185.497],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":1,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-253.218,185.497],"ix":2},"a":{"a":0,"k":[-253.218,185.497],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-3.241,-21.388],[-11.392,-18.389],[3.241,21.388],[11.392,18.389]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-280.626,200.943],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":1,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[23.331,-31.163],[-37.964,-8.614],[-23.331,31.163],[37.964,8.614]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.415686279535,0.121568627656,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-280.626,200.943],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":1,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[2.065,-23.34],[-16.698,-16.437],[-2.065,23.34],[16.698,16.437]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.666666686535,0.239215686917,0.066666670144,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-320.721,215.694],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 4","np":1,"cix":2,"bm":0,"ix":4,"mn":"ADBE Vector Group","hd":false}],"ip":47,"op":154,"st":47,"bm":0},{"ddd":0,"ind":9,"ty":4,"nm":"Layer 2","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.208],"y":[1]},"o":{"x":[0.333],"y":[0]},"t":43,"s":[-24]},{"t":94,"s":[0]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.208,"y":1},"o":{"x":0.333,"y":0},"t":43,"s":[0.426,213.415,0],"to":[0,0,0],"ti":[0,0,0]},{"t":94,"s":[-0.074,158.915,0]}],"ix":2},"a":{"a":0,"k":[-307.17,204.982,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0.309,0.114],[-0.114,0.309],[0,0],[-0.309,-0.114],[0.114,-0.309],[0,0]],"o":[[-0.309,-0.114],[0,0],[0.114,-0.309],[0.309,0.114],[0,0],[-0.114,0.309]],"v":[[-1.822,4.953],[-2.175,4.189],[1.058,-4.6],[1.822,-4.953],[2.175,-4.189],[-1.058,4.6]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-339.631,175.544],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":1,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0.199,-0.54],[0.539,0.198],[-0.198,0.539],[-0.539,-0.198]],"o":[[-0.199,0.54],[-0.54,-0.199],[0.199,-0.54],[0.539,0.198]],"v":[[3.722,-5.773],[2.387,-5.156],[1.77,-6.491],[3.105,-7.109]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-1.483,-6.263],[-6.05,6.152],[1.483,8.923],[6.05,-3.492],[3.773,-8.923]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.988235294819,0.811764717102,0.06274510175,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-343.993,186.072],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":1,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-343.993,186.072],"ix":2},"a":{"a":0,"k":[-343.993,186.072],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[3.241,-21.388],[11.392,-18.389],[-3.241,21.388],[-11.392,18.389]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-316.585,201.518],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":1,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-23.331,-31.163],[37.964,-8.614],[23.331,31.163],[-37.964,8.614]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.415686279535,0.121568627656,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-316.585,201.518],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":1,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-2.065,-23.34],[16.698,-16.437],[2.065,23.34],[-16.698,16.437]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.666666686535,0.239215686917,0.066666670144,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-276.49,216.268],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 4","np":1,"cix":2,"bm":0,"ix":4,"mn":"ADBE Vector Group","hd":false}],"ip":43,"op":176,"st":43,"bm":0},{"ddd":0,"ind":10,"ty":4,"nm":"Layer 10","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":76,"s":[41]},{"t":140,"s":[-47]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":76,"s":[116.273,198.522,0],"to":[0,0,0],"ti":[0,0,0]},{"t":140,"s":[258.773,18.522,0]}],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":1,"k":[{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,0.833]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0.167]},"t":102,"s":[100,100,100]},{"t":140,"s":[0,0,100]}],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-8.397,-8.556],[0,0],[0,0],[-8.397,-8.556],[8.397,-8.556],[0,0],[0,0],[-8.397,8.556]],"o":[[8.397,-8.556],[0,0],[0,0],[8.397,-8.556],[8.397,8.556],[0,0],[0,0],[-8.397,-8.556],[0,0]],"v":[[-34.551,-29.892],[-4.145,-29.892],[0,-25.666],[4.145,-29.892],[34.55,-29.892],[34.55,1.095],[0,36.309],[-34.55,1.095],[-34.55,-29.892]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0,0,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":76,"op":141,"st":76,"bm":0},{"ddd":0,"ind":11,"ty":4,"nm":"Layer 9","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":85,"s":[41]},{"t":149,"s":[-47]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":85,"s":[66.273,183.522,0],"to":[0,0,0],"ti":[0,0,0]},{"t":149,"s":[188.773,-6.478,0]}],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":1,"k":[{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,0.833]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0.167]},"t":111,"s":[100,100,100]},{"t":149,"s":[0,0,100]}],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-8.397,-8.556],[0,0],[0,0],[-8.397,-8.556],[8.397,-8.556],[0,0],[0,0],[-8.397,8.556]],"o":[[8.397,-8.556],[0,0],[0,0],[8.397,-8.556],[8.397,8.556],[0,0],[0,0],[-8.397,-8.556],[0,0]],"v":[[-34.551,-29.892],[-4.145,-29.892],[0,-25.666],[4.145,-29.892],[34.55,-29.892],[34.55,1.095],[0,36.309],[-34.55,1.095],[-34.55,-29.892]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0,0,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":85,"op":150,"st":85,"bm":0},{"ddd":0,"ind":12,"ty":4,"nm":"Layer 8","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":72,"s":[41]},{"t":136,"s":[-47]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":72,"s":[66.273,183.522,0],"to":[0,0,0],"ti":[0,0,0]},{"t":136,"s":[74.773,-23.478,0]}],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":1,"k":[{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,0.833]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0.167]},"t":98,"s":[100,100,100]},{"t":136,"s":[0,0,100]}],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-8.397,-8.556],[0,0],[0,0],[-8.397,-8.556],[8.397,-8.556],[0,0],[0,0],[-8.397,8.556]],"o":[[8.397,-8.556],[0,0],[0,0],[8.397,-8.556],[8.397,8.556],[0,0],[0,0],[-8.397,-8.556],[0,0]],"v":[[-34.551,-29.892],[-4.145,-29.892],[0,-25.666],[4.145,-29.892],[34.55,-29.892],[34.55,1.095],[0,36.309],[-34.55,1.095],[-34.55,-29.892]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0,0,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":72,"op":137,"st":72,"bm":0},{"ddd":0,"ind":13,"ty":4,"nm":"Layer 7","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":82,"s":[41]},{"t":146,"s":[-47]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":82,"s":[66.273,183.522,0],"to":[0,0,0],"ti":[0,0,0]},{"t":146,"s":[-49.227,-15.478,0]}],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":1,"k":[{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,0.833]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0.167]},"t":108,"s":[100,100,100]},{"t":146,"s":[0,0,100]}],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-8.397,-8.556],[0,0],[0,0],[-8.397,-8.556],[8.397,-8.556],[0,0],[0,0],[-8.397,8.556]],"o":[[8.397,-8.556],[0,0],[0,0],[8.397,-8.556],[8.397,8.556],[0,0],[0,0],[-8.397,-8.556],[0,0]],"v":[[-34.551,-29.892],[-4.145,-29.892],[0,-25.666],[4.145,-29.892],[34.55,-29.892],[34.55,1.095],[0,36.309],[-34.55,1.095],[-34.55,-29.892]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0,0,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":82,"op":147,"st":82,"bm":0},{"ddd":0,"ind":14,"ty":4,"nm":"Layer 6","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":62,"s":[41]},{"t":126,"s":[-47]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":62,"s":[27.273,201.522,0],"to":[0,0,0],"ti":[0,0,0]},{"t":126,"s":[-133.227,22.522,0]}],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":1,"k":[{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,0.833]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0.167]},"t":88,"s":[100,100,100]},{"t":126,"s":[0,0,100]}],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-8.397,-8.556],[0,0],[0,0],[-8.397,-8.556],[8.397,-8.556],[0,0],[0,0],[-8.397,8.556]],"o":[[8.397,-8.556],[0,0],[0,0],[8.397,-8.556],[8.397,8.556],[0,0],[0,0],[-8.397,-8.556],[0,0]],"v":[[-34.551,-29.892],[-4.145,-29.892],[0,-25.666],[4.145,-29.892],[34.55,-29.892],[34.55,1.095],[0,36.309],[-34.55,1.095],[-34.55,-29.892]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0,0,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":62,"op":127,"st":62,"bm":0}],"markers":[]}
+                });
+
+                // Right animation
+                const lottieRight = lottie.loadAnimation({
+                    container: document.getElementById('lottie-right'),
+                    renderer: 'svg',
+                    loop: true,
+                    autoplay: true,
+                    animationData: boxAnimationData = {"v":"5.6.10","fr":60,"ip":0,"op":180,"w":500,"h":700,"nm":"Comp 1","ddd":0,"assets":[],"layers":[{"ddd":0,"ind":2,"ty":3,"nm":"Null 2","sr":1,"ks":{"o":{"a":0,"k":0,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[235.904,386.066,0],"ix":2},"a":{"a":0,"k":[50,50,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ip":0,"op":12955,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"Layer 1","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0],"y":[0.25]},"o":{"x":[0.333],"y":[0]},"t":62,"s":[0]},{"i":{"x":[0.667],"y":[1]},"o":{"x":[1],"y":[0.75]},"t":99,"s":[166.511]},{"t":142,"s":[360]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.667,"y":1},"o":{"x":0.167,"y":0.167},"t":0,"s":[64.096,91.081,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.505,"y":1},"o":{"x":0.333,"y":0},"t":62,"s":[64.096,110.581,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.667,"y":1},"o":{"x":1,"y":0},"t":87,"s":[64.096,-169.419,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.667,"y":1},"o":{"x":0.167,"y":0},"t":142,"s":[64.096,126.581,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.667,"y":1},"o":{"x":0.333,"y":0},"t":153,"s":[64.096,81.081,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.667,"y":1},"o":{"x":0.333,"y":0},"t":159,"s":[64.096,98.581,0],"to":[0,0,0],"ti":[0,0,0]},{"t":165,"s":[64.096,91.081,0]}],"ix":2},"a":{"a":0,"k":[-242.032,4.648,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-25.176,-39.294],[25.176,-39.294],[25.176,39.294],[-25.176,39.294]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-242.032,31.767],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-11.046,0],[0,0],[0,-11.046],[0,0],[11.046,0],[0,0],[0,11.046],[0,0]],"o":[[0,0],[11.046,0],[0,0],[0,11.046],[0,0],[-11.046,0],[0,0],[0,-11.046]],"v":[[-124.706,-39.294],[124.706,-39.294],[144.706,-19.294],[144.706,19.294],[124.706,39.294],[-124.706,39.294],[-144.706,19.294],[-144.706,-19.294]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.952941179276,0.776470601559,0.494117647409,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-242.032,31.767],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":2,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,13.905],[-13.905,0],[0,-13.905],[13.905,0]],"o":[[0,-13.905],[13.905,0],[0,13.905],[-13.905,0]],"v":[[-25.176,0],[0,-25.176],[25.176,0],[0,25.176]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.952941179276,0.611764729023,0.070588238537,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-242.032,-11.24],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,23.746],[-23.746,0],[0,-23.746],[23.746,0]],"o":[[0,-23.746],[23.746,0],[0,23.746],[-23.746,0]],"v":[[-42.997,0],[0,-42.997],[42.997,0],[0,42.997]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.952941179276,0.854901969433,0.694117665291,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-197.558,-18.77],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":2,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,23.746],[-23.746,0],[0,-23.746],[23.746,0]],"o":[[0,-23.746],[23.746,0],[0,23.746],[-23.746,0]],"v":[[-42.997,0],[0,-42.997],[42.997,0],[0,42.997]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.952941179276,0.854901969433,0.694117665291,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-286.028,-18.77],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":2,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-286.028,-18.77],"ix":2},"a":{"a":0,"k":[-286.028,-18.77],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":3,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":12955,"st":0,"bm":0},{"ddd":0,"ind":4,"ty":4,"nm":"Isolation Mode 2","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[64.096,253.492,0],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-25.176,-96.151],[25.176,-96.151],[25.176,96.151],[-25.176,96.151]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.952941179276,0.854901969433,0.694117665291,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":12955,"st":0,"bm":0},{"ddd":0,"ind":5,"ty":4,"nm":"Isolation Mode","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[64.096,253.811,0],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":0,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[0,11.046],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[0,11.046],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-96.471],[121.176,-96.471],[121.176,0.123],[121.176,76.471],[101.176,96.471],[-101.176,96.471],[-121.176,76.471],[-121.176,-0.877]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":62,"s":[{"i":[[0,0],[0,0],[-3.176,-60],[0,0],[11.046,0],[0,0],[8.676,11.652],[-0.221,69.5]],"o":[[0,0],[0,0],[3.357,63.411],[-11.176,16.652],[0,0],[-11.046,0],[0,0],[0.176,-55.5]],"v":[[-121,-76.471],[121.353,-76.471],[144.676,-1.377],[135.676,75.971],[101.176,96.471],[-101.176,96.471],[-132.176,77.971],[-148.676,-1.877]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":73,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[-7.574,11.652],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[6.324,9.152],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-104.587],[121.176,-104.587],[100.176,0.123],[118.676,78.471],[101.176,96.471],[-101.176,96.471],[-115.176,76.221],[-106.426,-1.377]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":82,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[0,11.046],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[0,11.046],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-93.765],[121.176,-93.765],[123.176,0.123],[121.176,76.471],[101.176,96.471],[-101.176,96.471],[-121.176,76.471],[-125.176,-0.877]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":87,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[0,11.046],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[0,11.046],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-96.471],[121.176,-96.471],[121.176,0.123],[121.176,76.471],[101.176,96.471],[-101.176,96.471],[-121.176,76.471],[-121.176,-0.877]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":130,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[0,11.046],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[0,11.046],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-96.471],[121.176,-96.471],[121.176,0.123],[121.176,76.471],[101.176,96.471],[-101.176,96.471],[-121.176,76.471],[-121.176,-0.877]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":142,"s":[{"i":[[0,0],[0,0],[-3.176,-60],[0,0],[11.046,0],[0,0],[8.676,11.652],[-0.221,69.5]],"o":[[0,0],[0,0],[3.357,63.411],[-11.176,16.652],[0,0],[-11.046,0],[0,0],[0.176,-55.5]],"v":[[-121,-76.471],[121.353,-76.471],[144.676,-1.377],[135.676,75.971],[101.176,96.471],[-101.176,96.471],[-132.176,77.971],[-148.676,-1.877]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":147,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[0,11.046],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[0,11.046],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-96.471],[121.176,-96.471],[121.176,0.123],[121.176,76.471],[101.176,96.471],[-101.176,96.471],[-121.176,76.471],[-121.176,-0.877]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":153,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[-7.574,11.652],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[6.324,9.152],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-106.471],[121.176,-106.471],[100.176,0.123],[118.676,78.471],[101.176,96.471],[-101.176,96.471],[-115.176,76.221],[-106.426,-1.377]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":159,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[0,11.046],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[0,11.046],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-91.059],[121.176,-91.059],[128.752,0.123],[121.176,76.471],[101.176,96.471],[-101.176,96.471],[-121.176,76.471],[-128.752,-0.877]],"c":true}]},{"t":165,"s":[{"i":[[0,0],[0,0],[0,-76.5],[0,0],[11.046,0],[0,0],[0,11.046],[0,69.5]],"o":[[0,0],[0,0],[0,63.5],[0,11.046],[0,0],[-11.046,0],[0,0],[0,-65.5]],"v":[[-121.176,-96.471],[121.176,-96.471],[121.176,0.123],[121.176,76.471],[101.176,96.471],[-101.176,96.471],[-121.176,76.471],[-121.176,-0.877]],"c":true}]}],"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.952941179276,0.611764729023,0.070588238537,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":12955,"st":0,"bm":0},{"ddd":0,"ind":6,"ty":4,"nm":"Layer 5","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.208],"y":[1]},"o":{"x":[0.333],"y":[0]},"t":47,"s":[-23]},{"t":98,"s":[0]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.208,"y":1},"o":{"x":0.333,"y":0},"t":47,"s":[75.24,213.431,0],"to":[0,0,0],"ti":[0,0,0]},{"t":98,"s":[105.24,160.931,0]}],"ix":2},"a":{"a":0,"k":[-201.857,206.997,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0.309,0.114],[-0.114,0.309],[0,0],[-0.309,-0.114],[0.114,-0.309],[0,0]],"o":[[-0.309,-0.114],[0,0],[0.114,-0.309],[0.309,0.114],[0,0],[-0.114,0.309]],"v":[[-1.822,4.953],[-2.175,4.189],[1.058,-4.6],[1.822,-4.953],[2.175,-4.189],[-1.058,4.6]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-234.317,177.559],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":1,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0.199,-0.54],[0.539,0.198],[-0.198,0.539],[-0.539,-0.198]],"o":[[-0.199,0.54],[-0.54,-0.199],[0.199,-0.54],[0.539,0.198]],"v":[[3.722,-5.773],[2.387,-5.156],[1.77,-6.491],[3.105,-7.109]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-1.483,-6.263],[-6.05,6.152],[1.483,8.923],[6.05,-3.492],[3.773,-8.923]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.988235294819,0.811764717102,0.06274510175,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-238.679,188.087],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":1,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-238.679,188.087],"ix":2},"a":{"a":0,"k":[-238.679,188.087],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[3.241,-21.388],[11.392,-18.389],[-3.241,21.388],[-11.392,18.389]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-211.272,203.533],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":1,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-23.331,-31.163],[37.964,-8.614],[23.331,31.163],[-37.964,8.614]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.415686279535,0.121568627656,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-211.271,203.533],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":1,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-2.065,-23.34],[16.698,-16.437],[2.065,23.34],[-16.698,16.437]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.666666686535,0.239215686917,0.066666670144,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-171.177,218.284],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 4","np":1,"cix":2,"bm":0,"ix":4,"mn":"ADBE Vector Group","hd":false}],"ip":47,"op":153,"st":47,"bm":0},{"ddd":0,"ind":7,"ty":4,"nm":"Layer 4","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.208],"y":[1]},"o":{"x":[0.333],"y":[0]},"t":55,"s":[27]},{"t":106,"s":[0]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.208,"y":1},"o":{"x":0.333,"y":0},"t":55,"s":[138.214,217.341,0],"to":[0,0,0],"ti":[0,0,0]},{"t":106,"s":[130.214,158.341,0]}],"ix":2},"a":{"a":0,"k":[-176.883,204.407,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-0.309,0.114],[0.114,0.309],[0,0],[0.309,-0.114],[-0.114,-0.309],[0,0]],"o":[[0.309,-0.114],[0,0],[-0.114,-0.309],[-0.309,0.114],[0,0],[0.114,0.309]],"v":[[1.822,4.953],[2.175,4.189],[-1.058,-4.6],[-1.822,-4.953],[-2.175,-4.189],[1.058,4.6]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-144.422,174.969],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":1,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-0.199,-0.54],[-0.539,0.198],[0.198,0.539],[0.539,-0.198]],"o":[[0.199,0.54],[0.54,-0.199],[-0.199,-0.54],[-0.539,0.198]],"v":[[-3.722,-5.773],[-2.387,-5.156],[-1.77,-6.491],[-3.105,-7.109]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[1.483,-6.263],[6.05,6.152],[-1.483,8.923],[-6.05,-3.492],[-3.773,-8.923]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.988235294819,0.811764717102,0.06274510175,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-140.06,185.497],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":1,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-140.06,185.497],"ix":2},"a":{"a":0,"k":[-140.06,185.497],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-3.241,-21.388],[-11.392,-18.389],[3.241,21.388],[11.392,18.389]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-167.468,200.943],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":1,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[23.331,-31.163],[-37.964,-8.614],[-23.331,31.163],[37.964,8.614]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.415686279535,0.121568627656,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-167.468,200.943],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":1,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[2.065,-23.34],[-16.698,-16.437],[-2.065,23.34],[16.698,16.437]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.666666686535,0.239215686917,0.066666670144,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-207.563,215.694],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 4","np":1,"cix":2,"bm":0,"ix":4,"mn":"ADBE Vector Group","hd":false}],"ip":89,"op":153,"st":55,"bm":0},{"ddd":0,"ind":8,"ty":4,"nm":"Layer 3","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.208],"y":[1]},"o":{"x":[0.333],"y":[0]},"t":47,"s":[24]},{"t":98,"s":[0]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.208,"y":1},"o":{"x":0.333,"y":0},"t":47,"s":[37.056,222.341,0],"to":[0,0,0],"ti":[0,0,0]},{"t":98,"s":[17.056,158.341,0]}],"ix":2},"a":{"a":0,"k":[-290.04,204.407,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-0.309,0.114],[0.114,0.309],[0,0],[0.309,-0.114],[-0.114,-0.309],[0,0]],"o":[[0.309,-0.114],[0,0],[-0.114,-0.309],[-0.309,0.114],[0,0],[0.114,0.309]],"v":[[1.822,4.953],[2.175,4.189],[-1.058,-4.6],[-1.822,-4.953],[-2.175,-4.189],[1.058,4.6]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-257.58,174.969],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":1,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-0.199,-0.54],[-0.539,0.198],[0.198,0.539],[0.539,-0.198]],"o":[[0.199,0.54],[0.54,-0.199],[-0.199,-0.54],[-0.539,0.198]],"v":[[-3.722,-5.773],[-2.387,-5.156],[-1.77,-6.491],[-3.105,-7.109]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[1.483,-6.263],[6.05,6.152],[-1.483,8.923],[-6.05,-3.492],[-3.773,-8.923]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.988235294819,0.811764717102,0.06274510175,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-253.218,185.497],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":1,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-253.218,185.497],"ix":2},"a":{"a":0,"k":[-253.218,185.497],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-3.241,-21.388],[-11.392,-18.389],[3.241,21.388],[11.392,18.389]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-280.626,200.943],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":1,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[23.331,-31.163],[-37.964,-8.614],[-23.331,31.163],[37.964,8.614]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.415686279535,0.121568627656,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-280.626,200.943],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":1,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[2.065,-23.34],[-16.698,-16.437],[-2.065,23.34],[16.698,16.437]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.666666686535,0.239215686917,0.066666670144,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-320.721,215.694],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 4","np":1,"cix":2,"bm":0,"ix":4,"mn":"ADBE Vector Group","hd":false}],"ip":47,"op":154,"st":47,"bm":0},{"ddd":0,"ind":9,"ty":4,"nm":"Layer 2","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.208],"y":[1]},"o":{"x":[0.333],"y":[0]},"t":43,"s":[-24]},{"t":94,"s":[0]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.208,"y":1},"o":{"x":0.333,"y":0},"t":43,"s":[0.426,213.415,0],"to":[0,0,0],"ti":[0,0,0]},{"t":94,"s":[-0.074,158.915,0]}],"ix":2},"a":{"a":0,"k":[-307.17,204.982,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0.309,0.114],[-0.114,0.309],[0,0],[-0.309,-0.114],[0.114,-0.309],[0,0]],"o":[[-0.309,-0.114],[0,0],[0.114,-0.309],[0.309,0.114],[0,0],[-0.114,0.309]],"v":[[-1.822,4.953],[-2.175,4.189],[1.058,-4.6],[1.822,-4.953],[2.175,-4.189],[-1.058,4.6]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-339.631,175.544],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":1,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0.199,-0.54],[0.539,0.198],[-0.198,0.539],[-0.539,-0.198]],"o":[[-0.199,0.54],[-0.54,-0.199],[0.199,-0.54],[0.539,0.198]],"v":[[3.722,-5.773],[2.387,-5.156],[1.77,-6.491],[3.105,-7.109]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-1.483,-6.263],[-6.05,6.152],[1.483,8.923],[6.05,-3.492],[3.773,-8.923]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.988235294819,0.811764717102,0.06274510175,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-343.993,186.072],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":1,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-343.993,186.072],"ix":2},"a":{"a":0,"k":[-343.993,186.072],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[3.241,-21.388],[11.392,-18.389],[-3.241,21.388],[-11.392,18.389]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-316.585,201.518],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":1,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-23.331,-31.163],[37.964,-8.614],[23.331,31.163],[-37.964,8.614]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.415686279535,0.121568627656,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-316.585,201.518],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":1,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-2.065,-23.34],[16.698,-16.437],[2.065,23.34],[-16.698,16.437]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.666666686535,0.239215686917,0.066666670144,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"tr","p":{"a":0,"k":[-276.49,216.268],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 4","np":1,"cix":2,"bm":0,"ix":4,"mn":"ADBE Vector Group","hd":false}],"ip":43,"op":176,"st":43,"bm":0},{"ddd":0,"ind":10,"ty":4,"nm":"Layer 10","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":76,"s":[41]},{"t":140,"s":[-47]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":76,"s":[116.273,198.522,0],"to":[0,0,0],"ti":[0,0,0]},{"t":140,"s":[258.773,18.522,0]}],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":1,"k":[{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,0.833]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0.167]},"t":102,"s":[100,100,100]},{"t":140,"s":[0,0,100]}],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-8.397,-8.556],[0,0],[0,0],[-8.397,-8.556],[8.397,-8.556],[0,0],[0,0],[-8.397,8.556]],"o":[[8.397,-8.556],[0,0],[0,0],[8.397,-8.556],[8.397,8.556],[0,0],[0,0],[-8.397,-8.556],[0,0]],"v":[[-34.551,-29.892],[-4.145,-29.892],[0,-25.666],[4.145,-29.892],[34.55,-29.892],[34.55,1.095],[0,36.309],[-34.55,1.095],[-34.55,-29.892]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0,0,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":76,"op":141,"st":76,"bm":0},{"ddd":0,"ind":11,"ty":4,"nm":"Layer 9","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":85,"s":[41]},{"t":149,"s":[-47]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":85,"s":[66.273,183.522,0],"to":[0,0,0],"ti":[0,0,0]},{"t":149,"s":[188.773,-6.478,0]}],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":1,"k":[{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,0.833]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0.167]},"t":111,"s":[100,100,100]},{"t":149,"s":[0,0,100]}],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-8.397,-8.556],[0,0],[0,0],[-8.397,-8.556],[8.397,-8.556],[0,0],[0,0],[-8.397,8.556]],"o":[[8.397,-8.556],[0,0],[0,0],[8.397,-8.556],[8.397,8.556],[0,0],[0,0],[-8.397,-8.556],[0,0]],"v":[[-34.551,-29.892],[-4.145,-29.892],[0,-25.666],[4.145,-29.892],[34.55,-29.892],[34.55,1.095],[0,36.309],[-34.55,1.095],[-34.55,-29.892]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0,0,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":85,"op":150,"st":85,"bm":0},{"ddd":0,"ind":12,"ty":4,"nm":"Layer 8","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":72,"s":[41]},{"t":136,"s":[-47]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":72,"s":[66.273,183.522,0],"to":[0,0,0],"ti":[0,0,0]},{"t":136,"s":[74.773,-23.478,0]}],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":1,"k":[{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,0.833]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0.167]},"t":98,"s":[100,100,100]},{"t":136,"s":[0,0,100]}],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-8.397,-8.556],[0,0],[0,0],[-8.397,-8.556],[8.397,-8.556],[0,0],[0,0],[-8.397,8.556]],"o":[[8.397,-8.556],[0,0],[0,0],[8.397,-8.556],[8.397,8.556],[0,0],[0,0],[-8.397,-8.556],[0,0]],"v":[[-34.551,-29.892],[-4.145,-29.892],[0,-25.666],[4.145,-29.892],[34.55,-29.892],[34.55,1.095],[0,36.309],[-34.55,1.095],[-34.55,-29.892]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0,0,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":72,"op":137,"st":72,"bm":0},{"ddd":0,"ind":13,"ty":4,"nm":"Layer 7","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":82,"s":[41]},{"t":146,"s":[-47]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":82,"s":[66.273,183.522,0],"to":[0,0,0],"ti":[0,0,0]},{"t":146,"s":[-49.227,-15.478,0]}],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":1,"k":[{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,0.833]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0.167]},"t":108,"s":[100,100,100]},{"t":146,"s":[0,0,100]}],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-8.397,-8.556],[0,0],[0,0],[-8.397,-8.556],[8.397,-8.556],[0,0],[0,0],[-8.397,8.556]],"o":[[8.397,-8.556],[0,0],[0,0],[8.397,-8.556],[8.397,8.556],[0,0],[0,0],[-8.397,-8.556],[0,0]],"v":[[-34.551,-29.892],[-4.145,-29.892],[0,-25.666],[4.145,-29.892],[34.55,-29.892],[34.55,1.095],[0,36.309],[-34.55,1.095],[-34.55,-29.892]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0,0,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":82,"op":147,"st":82,"bm":0},{"ddd":0,"ind":14,"ty":4,"nm":"Layer 6","parent":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":62,"s":[41]},{"t":126,"s":[-47]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":62,"s":[27.273,201.522,0],"to":[0,0,0],"ti":[0,0,0]},{"t":126,"s":[-133.227,22.522,0]}],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":1,"k":[{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,0.833]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0.167]},"t":88,"s":[100,100,100]},{"t":126,"s":[0,0,100]}],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-8.397,-8.556],[0,0],[0,0],[-8.397,-8.556],[8.397,-8.556],[0,0],[0,0],[-8.397,8.556]],"o":[[8.397,-8.556],[0,0],[0,0],[8.397,-8.556],[8.397,8.556],[0,0],[0,0],[-8.397,-8.556],[0,0]],"v":[[-34.551,-29.892],[-4.145,-29.892],[0,-25.666],[4.145,-29.892],[34.55,-29.892],[34.55,1.095],[0,36.309],[-34.55,1.095],[-34.55,-29.892]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0,0,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":62,"op":127,"st":62,"bm":0}],"markers":[]}
+                });
+
+                console.log('Lottie animations initialized successfully');
+            } catch (error) {
+                console.error('Error loading Lottie animations:', error);
+            }
+        });
+    </script>
+
+    <script>
+        // Go to top functionality
+        window.onscroll = function() {
+            const goToTopBtn = document.querySelector('.go-to-top');
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                goToTopBtn.classList.add('show');
+            } else {
+                goToTopBtn.classList.remove('show');
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href === '#' || !href) return;
+
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) {
+                    const headerHeight = document.querySelector('.main-header').offsetHeight +
+                                       document.querySelector('.sub-header').offsetHeight;
+                    const targetPosition = target.offsetTop - headerHeight - 20;
+
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Mobile menu toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+            const mainNav = document.querySelector('.main-nav');
+            const dropdowns = document.querySelectorAll('.dropdown');
+
+            // Toggle mobile menu
+            if (mobileMenuToggle) {
+                mobileMenuToggle.addEventListener('click', function() {
+                    mainNav.classList.toggle('active');
+                    const icon = this.querySelector('i');
+                    if (mainNav.classList.contains('active')) {
+                        icon.classList.remove('fa-bars');
+                        icon.classList.add('fa-times');
+                    } else {
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                    }
+                });
+            }
+
+            // Mobile dropdown toggle (ONLY for main navigation, NOT sub-header)
+            const mainNavDropdowns = document.querySelectorAll('.main-nav .dropdown');
+            mainNavDropdowns.forEach(dropdown => {
+                const dropdownToggle = dropdown.querySelector('.dropdown-toggle');
+                if (dropdownToggle) {
+                    dropdownToggle.addEventListener('click', function(e) {
+                        // Only prevent default on mobile
+                        if (window.innerWidth <= 768) {
+                            e.preventDefault();
+                            dropdown.classList.toggle('active');
+                        }
+                    });
+                }
+            });
+
+            // Sub-header gift collection dropdowns
+            const subHeaderDropdowns = document.querySelectorAll('.sub-header .gift-collection-item.dropdown');
+            console.log('Found sub-header dropdowns:', subHeaderDropdowns.length);
+
+            // Log initial states
+            subHeaderDropdowns.forEach((dropdown, index) => {
+                console.log(`Dropdown ${index} initial state:`, dropdown.classList.contains('active'));
+            });
+
+            subHeaderDropdowns.forEach(dropdown => {
+                const dropdownToggle = dropdown.querySelector('.dropdown-toggle');
+                let isProcessing = false; // Prevent double-firing
+
+                if (dropdownToggle) {
+                    dropdownToggle.addEventListener('click', function(e) {
+                        const timestamp = Date.now();
+                        console.log(`[${timestamp}] Dropdown clicked, window width:`, window.innerWidth);
+
+                        // Only prevent default on mobile
+                        if (window.innerWidth <= 768) {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            e.stopImmediatePropagation();
+
+                            // Prevent double-firing
+                            if (isProcessing) {
+                                console.log('Already processing - ignoring click');
+                                return;
+                            }
+
+                            isProcessing = true;
+                            console.log('Mobile mode - toggling dropdown');
+
+                            const isCurrentlyActive = dropdown.classList.contains('active');
+                            console.log('Current state before toggle:', isCurrentlyActive);
+
+                            // Close other sub-header dropdowns
+                            subHeaderDropdowns.forEach(otherDropdown => {
+                                if (otherDropdown !== dropdown) {
+                                    otherDropdown.classList.remove('active');
+                                }
+                            });
+
+                            // Toggle current dropdown
+                            if (isCurrentlyActive) {
+                                dropdown.classList.remove('active');
+                                console.log('Closing dropdown');
+                            } else {
+                                dropdown.classList.add('active');
+                                console.log('Opening dropdown');
+                            }
+
+                            console.log('Dropdown active state after:', dropdown.classList.contains('active'));
+
+                            // Reset processing flag after a short delay
+                            setTimeout(() => {
+                                isProcessing = false;
+                            }, 300);
+                        }
+                    });
+                }
+
+                // Close dropdown when clicking on a link inside it
+                const dropdownLinks = dropdown.querySelectorAll('.dropdown-menu a');
+                dropdownLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        if (window.innerWidth <= 768) {
+                            dropdown.classList.remove('active');
+                        }
+                    });
+                });
+
+                // Close dropdown when clicking the close button
+                const closeButton = dropdown.querySelector('.dropdown-close');
+                if (closeButton) {
+                    closeButton.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        console.log('Close button clicked');
+                        dropdown.classList.remove('active');
+                    });
+                }
+
+                // Close dropdown when clicking on backdrop (the dropdown item itself, not the menu)
+                dropdown.addEventListener('click', function(e) {
+                    if (window.innerWidth <= 768) {
+                        // Only close if clicking on the backdrop (not the menu or toggle)
+                        if (e.target === dropdown && dropdown.classList.contains('active')) {
+                            console.log('Backdrop clicked - closing dropdown');
+                            dropdown.classList.remove('active');
+                        }
+                    }
+                });
+            });
+
+            // Close mobile menu and dropdowns when clicking outside
+            document.addEventListener('click', function(e) {
+                if (window.innerWidth <= 768) {
+                    // Don't close dropdowns if clicking on footer
+                    if (e.target.closest('.enhanced-footer')) {
+                        return;
+                    }
+
+                    // Close main nav if clicking outside header
+                    if (!e.target.closest('.main-header')) {
+                        mainNav.classList.remove('active');
+                        const icon = mobileMenuToggle.querySelector('i');
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                    }
+
+                    // Close sub-header dropdowns when clicking outside
+                    const clickedOnDropdownMenu = e.target.closest('.dropdown-menu');
+                    const clickedOnDropdownToggle = e.target.closest('.dropdown-toggle');
+
+                    // Close if clicking outside both the menu and the toggle
+                    if (!clickedOnDropdownMenu && !clickedOnDropdownToggle) {
+                        console.log('Clicking outside dropdown - closing all dropdowns');
+                        subHeaderDropdowns.forEach(dropdown => {
+                            dropdown.classList.remove('active');
+                        });
+                    }
+                }
+            });
+
+            // Handle window resize
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    mainNav.classList.remove('active');
+                    mainNavDropdowns.forEach(dropdown => {
+                        dropdown.classList.remove('active');
+                    });
+                    subHeaderDropdowns.forEach(dropdown => {
+                        dropdown.classList.remove('active');
+                    });
+                    const icon = mobileMenuToggle.querySelector('i');
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+            });
+        });
+    </script>
+
+    <!-- Initialize Banner Manager -->
+    <script>
+        // Initialize banner manager when DOM is ready
+        if (typeof bannerManager !== 'undefined') {
+            // If already loaded, init immediately if DOM is ready
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', function() {
+                    bannerManager.init();
+                });
+            } else {
+                // DOM already loaded
+                bannerManager.init();
+            }
+        } else {
+            console.error('Banner Manager not loaded!');
+        }
+    </script>
+
+    <!-- Footer Collapse Functionality -->
+    <script>
+        // Enhanced Footer Accordion with Toggle Icons (Desktop + Mobile)
+        (function() {
+            function initFooterCollapse() {
+                console.log('Footer collapse script running...');
+
+                // Add 'loaded' class to body to prevent FOUC
+                document.body.classList.add('footer-loaded');
+
+                const collapsibleColumns = document.querySelectorAll('.footer-column.collapsible');
+                console.log('Found columns:', collapsibleColumns.length);
+
+                if (collapsibleColumns.length === 0) {
+                    console.warn('No collapsible footer columns found');
+                    return;
+                }
+
+                collapsibleColumns.forEach(function(column, index) {
+                    const heading = column.querySelector('.footer-heading');
+                    const toggle = column.querySelector('.footer-toggle');
+                    const links = column.querySelector('.footer-links');
+
+                    console.log('Column', index, ':', {
+                        hasHeading: !!heading,
+                        hasToggle: !!toggle,
+                        hasLinks: !!links
+                    });
+
+                    if (heading && toggle && links) {
+                        // Initially collapsed on all devices
+                        column.classList.remove('active');
+                        toggle.textContent = '+';
+
+                        // Function to handle toggle - Industry standard approach
+                        function handleToggle(e) {
+                            // Prevent default to avoid double-firing on mobile
+                            if (e && e.type === 'touchend') {
+                                e.preventDefault();
+                            }
+
+                            // Simple class toggle - let CSS handle everything
+                            const isActive = column.classList.contains('active');
+                            if (isActive) {
+                                column.classList.remove('active');
+                                toggle.textContent = '+';
+                            } else {
+                                column.classList.add('active');
+                                toggle.textContent = '−';
+                            }
+
+                            // No scroll manipulation needed - browser handles layout naturally
+                            // overflow-anchor: none in CSS prevents scroll jumping
+                        }
+
+                        // Add both click and touch event listeners for cross-device support
+                        heading.addEventListener('click', handleToggle);
+                        heading.addEventListener('touchend', handleToggle, {passive: false});
+
+                        console.log('Event listeners attached to column', index);
+                    }
+                });
+
+                console.log('Footer collapse initialized for', collapsibleColumns.length, 'columns');
+            }
+
+            // Initialize when DOM is ready
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', initFooterCollapse);
+            } else {
+                // DOM already loaded
+                initFooterCollapse();
+            }
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,1451 @@
+// ========================================
+// SPECIAL OFFERS DATA - AUTO-GENERATED
+// ========================================
+//
+// HOW TO USE IN YOUR special-offers.html:
+// 1. Copy this file to your frontend/js/ folder
+// 2. Add this script tag to special-offers.html:
+//    <script src="js/special-offers.js"></script>
+// 3. Everything updates automatically on page load!
+//
+// What this file includes:
+// - 94 products
+// - Category Configuration (auto-updates)
+// - Category: Amazon Halloween Deals & Gifts 2025
+// - Last Updated: 10/27/2025, 11:33:37 PM
+//
+// AUTOMATIC UPDATES ON PAGE LOAD:
+// SEO Meta Tags (uses SEO Settings):
+// ✓ Page Title (SEO Title → Category Name)
+// ✓ Meta Description (SEO Description → Description)
+// ✓ Open Graph Tags (SEO Title/Description → Name/Description)
+//
+// Page Content (visible on page):
+// ✓ Breadcrumb Title (uses Category Name)
+// ✓ H1 Category Name (uses Category Name)
+// ✓ Page Description (uses Description → SEO Description)
+// ========================================
+
+// Special Offers Data - Products with special offers/discounts
+const specialOffersData = [
+    {
+        "title": "DIYASY Bats Wall Decor, 120 Pcs 3D Bat Halloween Decoration Stickers for Home Decor 4 Size Waterproof Black Spooky Bats for Room Decals",
+        "price": "5.67",
+        "rating": 4.4,
+        "affiliateLink": "https://amzn.to/46C1EPC",
+        "image": "https://m.media-amazon.com/images/I/712DvCKKmfL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470779286,
+        "isCustomCategory": true,
+        "priceValue": 5.67
+    },
+    {
+        "title": "1400 sqft Halloween Spider Webs Decorations with 150 Extra Fake Spiders, Super Stretchy Cobwebs for Halloween Decor Indoor and Outdoor",
+        "price": "11.99",
+        "rating": 4.6,
+        "affiliateLink": "https://amzn.to/4ntDeiz",
+        "image": "https://m.media-amazon.com/images/I/81MIMkpq4xL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470774345,
+        "isCustomCategory": true,
+        "priceValue": 11.99
+    },
+    {
+        "title": "1000 sqft Spider Webs Halloween Decorations Bonus with 30 Fake Spiders, Super Stretch Cobwebs for Halloween Indoor and Outdoor Party Supplies",
+        "price": "8.99",
+        "rating": 4.5,
+        "affiliateLink": "https://amzn.to/3IEDmMW",
+        "image": "https://m.media-amazon.com/images/I/81JCNXXndQL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470783776,
+        "isCustomCategory": true,
+        "priceValue": 8.99
+    },
+    {
+        "title": "140PCS Halloween Window Clings Decor for Halloween Decorations, Double Side Window Stickers Removable Glass Decals for Party Decorations Indoor",
+        "price": "7.29",
+        "rating": 4.4,
+        "affiliateLink": "https://amzn.to/3Wbf2oZ",
+        "image": "https://m.media-amazon.com/images/I/71jomKyE7VL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470777551,
+        "isCustomCategory": true,
+        "priceValue": 7.29
+    },
+    {
+        "title": "AerWo Halloween Decoration Black Lace Spiderweb Fireplace Mantle Scarf Cover Festive Party Supplies 45 X 243cm 18 x 96 inch",
+        "price": "9.99",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/3KgyePI",
+        "image": "https://m.media-amazon.com/images/I/81v6doO4OKL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470777998,
+        "isCustomCategory": true,
+        "priceValue": 9.99
+    },
+    {
+        "title": "Halloween Decorations Upgraded LED Flame Light Bulbs, 4 Modes Flickering Light Bulbs, E26 Base Fire Flame Bulb, Christmas Lights Patio Outdoor Indoor Home Decor (Yellow, 2 Pack)",
+        "price": "9.49",
+        "rating": 4.3,
+        "affiliateLink": "https://amzn.to/4gHxoHO",
+        "image": "https://m.media-amazon.com/images/I/61vrOoCMqfL._AC_SL1000_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470783416,
+        "isCustomCategory": true,
+        "priceValue": 9.49
+    },
+    {
+        "title": "5Pcs Halloween Creepy Cloth Black 30×72inch - Halloween Decorations Clearance - Creepy Spooky Halloween Decorations Outdoor Indoor",
+        "price": "6.99",
+        "rating": 4.6,
+        "affiliateLink": "https://amzn.to/48gOzhp",
+        "image": "https://m.media-amazon.com/images/I/91HPs3rG6HL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470781457,
+        "isCustomCategory": true,
+        "priceValue": 6.99
+    },
+    {
+        "title": "3 Pcs Halloween Costume Accessories Adult,Goggles Glasses/Yellow Beanie/Gloves for Men Women Cosplay Party Set",
+        "price": "9.49",
+        "rating": 4.6,
+        "affiliateLink": "https://amzn.to/46yOV07",
+        "image": "https://m.media-amazon.com/images/I/71GzQNlWrRL._AC_SX569_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470776253,
+        "isCustomCategory": true,
+        "priceValue": 9.49
+    },
+    {
+        "title": "CCINEE Halloween Window Stickers - 10 Sheets Window Clings Decals for Party Decoration, Indoor & Outdoor Home Decor",
+        "price": "5.99",
+        "rating": 4.6,
+        "affiliateLink": "https://amzn.to/4pELQEm",
+        "image": "https://m.media-amazon.com/images/I/71bpzCcNsWL._AC_SL1000_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470778357,
+        "isCustomCategory": true,
+        "priceValue": 5.99
+    },
+    {
+        "title": "Happy Hippo Halloween Spider Web Decoration, 200 Sqare Feet & Plastic Spiders, Halloween Party Supplies, Spider Webs (Small, 200 Sq Feet) (8 Fake Spiders Included)",
+        "price": "3.99",
+        "rating": 4.4,
+        "affiliateLink": "https://amzn.to/3VuLSkH",
+        "image": "https://m.media-amazon.com/images/I/61f9pzZjQ7L._AC_SL1000_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470774554,
+        "isCustomCategory": true,
+        "priceValue": 3.99
+    },
+    {
+        "title": "BOBISUKA 3PCS Halloween Fake Blood Makeup Kit - Coagulated 1.41oz + Spray 1.76oz + Dripping 1.76oz, Realistic Washable SFX Makeup for Zombie Monster Mouth Clothes Dress Up",
+        "price": "7.99",
+        "rating": 4.6,
+        "affiliateLink": "https://amzn.to/4nn1e74",
+        "image": "https://m.media-amazon.com/images/I/71MjWVrfs2L._SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470776858,
+        "isCustomCategory": true,
+        "priceValue": 7.99
+    },
+    {
+        "title": "Pet Cat Bat Wings for Halloween Party Decoration, Puppy Collar Leads Cosplay Bat Costume,Cute Puppy Cat Dress Up Accessories",
+        "price": "5.99",
+        "rating": 4.3,
+        "affiliateLink": "https://amzn.to/3Kjupcq",
+        "image": "https://m.media-amazon.com/images/I/51kh1vgB9aL._AC_SL1000_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470778955,
+        "isCustomCategory": true,
+        "priceValue": 5.99
+    },
+    {
+        "title": "OHOME Halloween Giant Coloring Poster/Tablecloth-Halloween Crafts for Kids-30 x 72 Inches Jumbo Paper Coloring Banner Gifts for Kids Activities Games Toys Party Favors- Halloween Party Decorations",
+        "price": "7.99",
+        "rating": 4.8,
+        "affiliateLink": "https://amzn.to/3IAsQq5",
+        "image": "https://m.media-amazon.com/images/I/91jU6fvonZL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470775137,
+        "isCustomCategory": true,
+        "priceValue": 7.99
+    },
+    {
+        "title": "DFXSZ Halloween Pillow Covers 18x18 inch Set of 2 White Ghost Throw Pillow Cases Soft Plush Faux Fur Wool Couch Cushion Case for Chair Sofa Bedroom Living Room Home Decor PTK03A18",
+        "price": "11.89",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/4pIFFzq",
+        "image": "https://m.media-amazon.com/images/I/71xaahFicpL._AC_SL1000_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470780067,
+        "isCustomCategory": true,
+        "priceValue": 11.89
+    },
+    {
+        "title": "Halloween Cobweb Fireplace Scarf, Black Lace Spiderweb Mantle Scarf for Halloween Home Party Supplies, 18 x 96 inch",
+        "price": "7.49",
+        "rating": 4.8,
+        "affiliateLink": "https://amzn.to/4njXG5z",
+        "image": "https://m.media-amazon.com/images/I/51tINShOhaL._AC_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470781860,
+        "isCustomCategory": true,
+        "priceValue": 7.49
+    },
+    {
+        "title": "Winzwon Led Lights for Car Accessories Interior, Birthday Gifts for Women Men, Halloween Trunk or Trick Car Decorations Kit APP Control with USB Port Color Change Lights for Truck Decor, 12V",
+        "price": "9.99",
+        "rating": 4.3,
+        "affiliateLink": "https://amzn.to/46iNUui",
+        "image": "https://m.media-amazon.com/images/I/81+PYmYocfL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470774129,
+        "isCustomCategory": true,
+        "priceValue": 9.99
+    },
+    {
+        "title": "CCINEE Halloween Cellophane Treat Bags, 150pcs Halloween Plastic Clear Candy Bags with 300pcs Twists for Snacks Cookies Packing",
+        "price": "6.49",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/4nKursf",
+        "image": "https://m.media-amazon.com/images/I/71vI1FOWMgL._AC_SL1001_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470774539,
+        "isCustomCategory": true,
+        "priceValue": 6.49
+    },
+    {
+        "title": "Airheads Mini Bars, Halloween Trick or Treat Candy Variety Bag, Individually Wrapped Bulk Candy for Adults & Kids, Party, Non-Melting, 12 oz Bag",
+        "price": "4.49",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/4gHy2VK",
+        "image": "https://m.media-amazon.com/images/I/81KJbmTMXbL._SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470780287,
+        "isCustomCategory": true,
+        "priceValue": 4.49
+    },
+    {
+        "title": "Aisity Halloween Gifts Boo Basket Ghost Keychain Gifts for Her Women Teen Girls Perfect Halloween Boo Basket Ideas Gift for Teen Girl Cool Stuff Funny Gift for Him Her Halloweens Baskets Stuffers",
+        "price": "6.99",
+        "rating": 4.6,
+        "affiliateLink": "https://amzn.to/47TGhM7",
+        "image": "https://m.media-amazon.com/images/I/61i0msvtumL._AC_SX679_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470780827,
+        "isCustomCategory": true,
+        "priceValue": 6.99
+    },
+    {
+        "title": "Realistic Plastic Spider Toys Halloween Prank Props Small Size Funny Halloween Decorations 30pcs",
+        "price": "6.99",
+        "rating": 4.5,
+        "affiliateLink": "https://amzn.to/4gOjT9h",
+        "image": "https://m.media-amazon.com/images/I/61R9kBOU8LL._AC_SL1000_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470777121,
+        "isCustomCategory": true,
+        "priceValue": 6.99
+    },
+    {
+        "title": "Halloween Treats Bags Party Favors 80 Pcs Kids Halloween Candy Bags for Trick or Treating + 84 Pcs Halloween Stickers, Mini Paper Gift Bags for Treats Snacks, Halloween Goodie Bags Party Supplies",
+        "price": "9.99",
+        "rating": 4.6,
+        "affiliateLink": "https://amzn.to/4nQagcD",
+        "image": "https://m.media-amazon.com/images/I/711heOsTsiL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470783607,
+        "isCustomCategory": true,
+        "priceValue": 9.99
+    },
+    {
+        "title": "Spider-Man Marvel Mile Morales Hero Mask",
+        "price": "9.83",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/3KkvH6Y",
+        "image": "https://m.media-amazon.com/images/I/71-svyKx7cL._AC_SX522_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470778295,
+        "isCustomCategory": true,
+        "priceValue": 9.83
+    },
+    {
+        "title": "Winzwon Led Lights for Car Accessories Interior, Birthday Gifts for Women Men, Halloween Trunk or Trick Car Decorations Kit APP Control with USB Port Color Change Lights for Truck Decor, 12V",
+        "price": "9.99",
+        "rating": 4.3,
+        "affiliateLink": "https://amzn.to/42JTSC4",
+        "image": "https://m.media-amazon.com/images/I/71Tl37Pfx3L._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470777566,
+        "isCustomCategory": true,
+        "priceValue": 9.99
+    },
+    {
+        "title": "CCINEE Halloween Cellophane Treat Bags, 150pcs Halloween Plastic Clear Candy Bags with 300pcs Twists for Snacks Cookies Packing",
+        "price": "6.49",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/3Kjx2uP",
+        "image": "https://m.media-amazon.com/images/I/718XQ4fwOhL._AC_SY355_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470774191,
+        "isCustomCategory": true,
+        "priceValue": 6.49
+    },
+    {
+        "title": "Airheads Mini Bars, Halloween Trick or Treat Candy Variety Bag, Individually Wrapped Bulk Candy for Adults & Kids, Party, Non-Melting, 12 oz Bag",
+        "price": "4.49",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/46ioGwa",
+        "image": "https://m.media-amazon.com/images/I/81KJbmTMXbL._SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470782376,
+        "isCustomCategory": true,
+        "priceValue": 4.49
+    },
+    {
+        "title": "Women Fall Halloween Doodles V Neck Shirt Funny Family Party Celebration Short Sleeve Tee Pumpkin Graphic Thanksgiving Tops…",
+        "price": "14.99",
+        "rating": 4.4,
+        "affiliateLink": "https://amzn.to/42bCPIZ",
+        "image": "https://m.media-amazon.com/images/I/61FQGdK92iL._AC_SX569_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470781745,
+        "isCustomCategory": true,
+        "priceValue": 14.99
+    },
+    {
+        "title": "Halloween Doodles Shirt for Women Cute Boo Vintage Graphic Halloween Tshirt for Party Short Sleeve Fall Shirt",
+        "price": "9.99",
+        "rating": 4.6,
+        "affiliateLink": "https://amzn.to/4mzfWGW",
+        "image": "https://m.media-amazon.com/images/I/81t5j7P6d8L._AC_SY550_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470780429,
+        "isCustomCategory": true,
+        "priceValue": 9.99
+    },
+    {
+        "title": "LAZYCHILD It's Just A Bunch of Hocus Pocus Halloween T Shirt Toddler Boys Girls Sanderson Sister Graphic Tee Shirts",
+        "price": "11.99",
+        "rating": 4.8,
+        "affiliateLink": "https://amzn.to/46vzztf",
+        "image": "https://m.media-amazon.com/images/I/810hk5q8iNL._AC_SX679_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470783068,
+        "isCustomCategory": true,
+        "priceValue": 11.99
+    },
+    {
+        "title": "Pumpkin Masters Premium All in One Carving Kit – Comprehensive Halloween Pumpkin Carving Kit with Large Handled Tools and New Patterns",
+        "price": "4.60",
+        "rating": 4.3,
+        "affiliateLink": "https://amzn.to/4pCrRpZ",
+        "image": "https://m.media-amazon.com/images/I/81ZNF5PqjJL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470783883,
+        "isCustomCategory": true,
+        "priceValue": 4.6
+    },
+    {
+        "title": "Halloween Decorations, 20 PCs Floating Candles with Wand Magic Hanging Candles, Flickering Warm Light Flameless Floating LED Candle with Wand Remote, Battery Operated Taper Candle Set for Theme Party",
+        "price": "27.91",
+        "rating": 4.2,
+        "affiliateLink": "https://amzn.to/46vzBBn",
+        "image": "https://m.media-amazon.com/images/I/813-EPkt4eL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470775000,
+        "isCustomCategory": true,
+        "priceValue": 27.91
+    },
+    {
+        "title": "Halloween Decorations Indoor Halloween Wooden Signs Pumpkin Ghost Decor Table Signs Rustic Farmhouse Home Living Room Decor",
+        "price": "7.99",
+        "rating": 4.3,
+        "affiliateLink": "https://amzn.to/46C38JG",
+        "image": "https://m.media-amazon.com/images/I/81lig4HdKpL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470780296,
+        "isCustomCategory": true,
+        "priceValue": 7.99
+    },
+    {
+        "title": "Minetom Halloween Fairy Lights, 33Ft 100 LED Battery Operated Fairy Lights, Waterproof Copper Wire Mason Jar Lights for Home Party Ghost Haunted House Indoor Outdoor Halloween Decorations, Orange",
+        "price": "5.75",
+        "rating": 4.4,
+        "affiliateLink": "https://amzn.to/3Kn1oMV",
+        "image": "https://m.media-amazon.com/images/I/91eCr9rRnfL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470778955,
+        "isCustomCategory": true,
+        "priceValue": 5.75
+    },
+    {
+        "title": "CCINEE Halloween Cellophane Treat Bags, 150pcs Halloween Plastic Clear Candy Bags with 300pcs Twists for Snacks Cookies Packing",
+        "price": "6.49",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/3Kn1pQZ",
+        "image": "https://m.media-amazon.com/images/I/71dXEEwap1L._AC_SL1001_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470783123,
+        "isCustomCategory": true,
+        "priceValue": 6.49
+    },
+    {
+        "title": "Halloween Wooden Ornaments for Tree Both Side, 24 Pcs Printing Halloween Christmas Tree Decorations and Ornaments with Rope for Home Indoor Party Decorations",
+        "price": "9.99",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/4pzsgK1",
+        "image": "https://m.media-amazon.com/images/I/71y7GHC4FYL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470779973,
+        "isCustomCategory": true,
+        "priceValue": 9.99
+    },
+    {
+        "title": "9 Pairs Halloween Earrings for Women Spider Web Pumpkin Ghost Bat Stud Earrings Halloween Outfits Accessories Costume Party Favors (9 Pairs halloween Earings Studs)",
+        "price": "7.99",
+        "rating": 4.6,
+        "affiliateLink": "https://amzn.to/47YvtMM",
+        "image": "https://m.media-amazon.com/images/I/61C9ec9DYrL._AC_SX395_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470781774,
+        "isCustomCategory": true,
+        "priceValue": 7.99
+    },
+    {
+        "title": "HERSHEY'S, KIT KAT and REESE'S Assorted Milk Chocolate Candy Variety Box, Halloween Candy, 27.3 oz (18 Count)",
+        "price": "19.69",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/46yfdzE",
+        "image": "https://m.media-amazon.com/images/I/71sanar2PJL._SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470775226,
+        "isCustomCategory": true,
+        "priceValue": 19.69
+    },
+    {
+        "title": "200\" Halloween Spider Web + 59\" Giant Spider Decorations Fake Spiders with Triangular Huge Spiders Web for Indoor Outdoor Halloween Decorations Yard Home Costumes Parties Haunted House Décor",
+        "price": "11.99",
+        "rating": 4.4,
+        "affiliateLink": "https://amzn.to/3IgoODf",
+        "image": "https://m.media-amazon.com/images/I/81VfT+KbVJL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470775004,
+        "isCustomCategory": true,
+        "priceValue": 11.99
+    },
+    {
+        "title": "HERSHEY'S NUGGETS Assorted Chocolate Candy Party Pack, Halloween Candy, 31.5 oz",
+        "price": "14.84",
+        "rating": 4.6,
+        "affiliateLink": "https://amzn.to/3KpAXpX",
+        "image": "https://m.media-amazon.com/images/I/71OPlMw2bcL._SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470775850,
+        "isCustomCategory": true,
+        "priceValue": 14.84
+    },
+    {
+        "title": "ASMAD Halloween Decorations Outdoor Solar Scary Eyeball Lights, 4Pack 32LEDs Green Eyeball Swaying Firefly Light, Waterproof Halloween Path Lights for Garden/Yard/Patio/Party Decor",
+        "price": "24.98",
+        "rating": 4.5,
+        "affiliateLink": "https://amzn.to/46CbQYE",
+        "image": "https://m.media-amazon.com/images/I/81rO3KemnVL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470783296,
+        "isCustomCategory": true,
+        "priceValue": 24.98
+    },
+    {
+        "title": "LOLStar Halloween Lights Decorations 2025 3-Pack Orange Pumpkin White Ghost Purple Bat Window Lights with Suction Cups, Battery Operated Halloween LED Lights Window Decor Slow Fade Mode and Timer",
+        "price": "15.99",
+        "rating": 4,
+        "affiliateLink": "https://amzn.to/3W5MbCA",
+        "image": "https://m.media-amazon.com/images/I/71RV8uaAhPL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470782782,
+        "isCustomCategory": true,
+        "priceValue": 15.99
+    },
+    {
+        "title": "Eldnacele Halloween LED Flameless Flickering Candles Battery Operated with 6H Timer Skull Spider Web Crow Raven Spooky Decals Halloween Themed Indoor Decoration(3 Pack, D3 x H6)",
+        "price": "19.75",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/4nlAXWJ",
+        "image": "https://m.media-amazon.com/images/I/81LZc0QcyDL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470778763,
+        "isCustomCategory": true,
+        "priceValue": 19.75
+    },
+    {
+        "title": "NICETOWN Halloween Black Blackout Curtain Blinds - Solid Thermal Insulated Window Treatment Blackout Drapes/Draperies for Bedroom (2 Panels, 42 inches Wide by 63 inches Long, Black)",
+        "price": "11.95",
+        "rating": 4.6,
+        "affiliateLink": "https://amzn.to/47ZCn4i",
+        "image": "https://m.media-amazon.com/images/I/617bx1VnwXL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470778821,
+        "isCustomCategory": true,
+        "priceValue": 11.95
+    },
+    {
+        "title": "AISENO Realistic Skeleton Stakes Halloween Decorations for Lawn Stakes Garden Halloween Skeleton Decoration",
+        "price": "24.74",
+        "rating": 4.5,
+        "affiliateLink": "https://amzn.to/4pEGJUU",
+        "image": "https://m.media-amazon.com/images/I/71uCNl-4XXL._AC_SL1000_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470778761,
+        "isCustomCategory": true,
+        "priceValue": 24.74
+    },
+    {
+        "title": "Made By Me Create Your Own Halloween Window Art by Horizon Group USA, Make 20 Projects, Includes Suncatcher Frames & Window Clings, Glow-in-The-Dark Paint, Paint Tubes, Suction Cups & Cording,Multi",
+        "price": "13.99",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/4nCyAPz",
+        "image": "https://m.media-amazon.com/images/I/81PjbNYr56L._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470783852,
+        "isCustomCategory": true,
+        "priceValue": 13.99
+    },
+    {
+        "title": "SpaLife Facial Mask Sheet Bundle - Pumpkin, Ghost, Bat - Halloween Character Mask Bundle - Face Masks for Skin Care - Moisturizing Sheet Face Masks - Skincare Pack for Women - Spa Beauty Masks",
+        "price": "16.99",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/4gMZr8U",
+        "image": "https://m.media-amazon.com/images/I/81OB2NPPYoL._SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470776948,
+        "isCustomCategory": true,
+        "priceValue": 16.99
+    },
+    {
+        "title": "Airheads Candy Bars, Halloween Variety Box, Chewy Full Size Fruit Taffy, Trick or Treat Mega Box, 90 Individually Wrapped Full Size Bars (Packaging May Vary)",
+        "price": "18.48",
+        "rating": 4.8,
+        "affiliateLink": "https://amzn.to/3Kg9yGZ",
+        "image": "https://m.media-amazon.com/images/I/81c89wVUbYL._SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470783622,
+        "isCustomCategory": true,
+        "priceValue": 18.48
+    },
+    {
+        "title": "DAZZLE BRIGHT Halloween 300 LED String Lights, 100FT String Lights with 8 Lighting Modes, Halloween Decorations for Party Carnival Supplies, Outdoor Yard Garden Decor (Purple & Orange)",
+        "price": "13.99",
+        "rating": 4.5,
+        "affiliateLink": "https://amzn.to/46ippxo",
+        "image": "https://m.media-amazon.com/images/I/81VLuMf76RL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470777983,
+        "isCustomCategory": true,
+        "priceValue": 13.99
+    },
+    {
+        "title": "Halloween Decorations Outdoor Solar Scary Eyeball Lights,2PACKS 12LED Green Eyeball Swaying Firefly Lights,Waterproof Solar Halloween Path Lights for Yard/Garden/Lawn/Party Decor",
+        "price": "13.99",
+        "rating": 4.1,
+        "affiliateLink": "https://amzn.to/46FJ3T3",
+        "image": "https://m.media-amazon.com/images/I/71e4jlUTOOL._AC_SL1000_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470781789,
+        "isCustomCategory": true,
+        "priceValue": 13.99
+    },
+    {
+        "title": "Brizled Orange & Purple Halloween Lights, 2 Pack Total 78FT 240 LED Solar Halloween Fairy Lights, 8 Modes Outdoor Orange Fairy Light, Purple Twinkle Light String Black Wire Outside Spooky Decorations",
+        "price": "12.28",
+        "rating": 4.2,
+        "affiliateLink": "https://amzn.to/47UkyDP",
+        "image": "https://m.media-amazon.com/images/I/81nvxe7IXeL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470780879,
+        "isCustomCategory": true,
+        "priceValue": 12.28
+    },
+    {
+        "title": "Pumpkin Night Light, Cute LED Lamp, Silicone Dimmable Nursery Nightlight for Kids, Silicone Rechargeable Bedside Touch Lamp, Funny Office Desk and Halloween Decor for Woman and Kids",
+        "price": "14.99",
+        "rating": 4.8,
+        "affiliateLink": "https://amzn.to/4pE8f4I",
+        "image": "https://m.media-amazon.com/images/I/51RJH8zeo0L._AC_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470780024,
+        "isCustomCategory": true,
+        "priceValue": 14.99
+    },
+    {
+        "title": "4-Pack Halloween LED Pumpkin Lights Battery Operated - Orange Pumpkin Lights with Timer and Remote Halloween Decor - Jack-O-Lantern Decoration Outdoor",
+        "price": "17.99",
+        "rating": 4.5,
+        "affiliateLink": "https://amzn.to/4ntFlmv",
+        "image": "https://m.media-amazon.com/images/I/61ySVwd516L._AC_SL1001_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470775891,
+        "isCustomCategory": true,
+        "priceValue": 17.99
+    },
+    {
+        "title": "JOYIN 3 Pack Halloween Party Decoration 27.5\" Hanging Ghosts, Cute Flying Ghost for Front Yard Patio Lawn Garden Party Décor and Holiday Decorations",
+        "price": "15.99",
+        "rating": 4.4,
+        "affiliateLink": "https://amzn.to/3Vuakmb",
+        "image": "https://m.media-amazon.com/images/I/6102rnNLJTL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470776128,
+        "isCustomCategory": true,
+        "priceValue": 15.99
+    },
+    {
+        "title": "Ivenf Halloween Decorations Outdoor, 6ct Black Cat Decor Yard Signs with Stakes, Scary Silhouette with Glow in Dark Eyes, Corrugated Plastic, Waterproof Lawn Decorations for Kids Family Home Party",
+        "price": "17.99",
+        "rating": 4.2,
+        "affiliateLink": "https://amzn.to/3Kj6tGk",
+        "image": "https://m.media-amazon.com/images/I/81Hzeqm036L._AC_SL1200_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470780152,
+        "isCustomCategory": true,
+        "priceValue": 17.99
+    },
+    {
+        "title": "JMEXSUSS 66ft 200 LED Halloween Lights Outdoor Indoor, Connectable Orange String Lights Clear Wire, Fall Light Plug in for Fireplace Tree Garden Patio Thanksgiving Fall Halloween Decor",
+        "price": "14.22",
+        "rating": 4.5,
+        "affiliateLink": "https://amzn.to/4nLIvBS",
+        "image": "https://m.media-amazon.com/images/I/81ozhZ7yqrL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470778460,
+        "isCustomCategory": true,
+        "priceValue": 14.22
+    },
+    {
+        "title": "Funtery Halloween Stuffed Pirate Parrot on Shoulder Halloween Pirate Party Costume Plush Parrot Toys Accessory(Red)",
+        "price": "13.99",
+        "rating": 4,
+        "affiliateLink": "https://amzn.to/4niFOrw",
+        "image": "https://m.media-amazon.com/images/I/713xKwpyfRL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470780237,
+        "isCustomCategory": true,
+        "priceValue": 13.99
+    },
+    {
+        "title": "Halloween Shirts for Women Basic Witch Coffee Letter T Shirt Vintage Witches Graphic Tees Fall Halloween Party Tops",
+        "price": "17.99",
+        "rating": 4.6,
+        "affiliateLink": "https://amzn.to/3IbQ0Da",
+        "image": "https://m.media-amazon.com/images/I/61eJ1qF3NkL._AC_SY500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470781277,
+        "isCustomCategory": true,
+        "priceValue": 17.99
+    },
+    {
+        "title": "CCINEE Halloween Window Cling Sticker,Giant Spooky Monster Silhouette Window Decal for Halloween Party Decoration,4 Sheet",
+        "price": "9.99",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/3IDtvHe",
+        "image": "https://m.media-amazon.com/images/I/81umEfbPA8S._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470774364,
+        "isCustomCategory": true,
+        "priceValue": 9.99
+    },
+    {
+        "title": "Max Fun Halloween Ring Toss Games Inflatable Spiders Ring Toss Witch’s Hat Toss Game for Kids Halloween Party Favors Supplies Indoors Outdoors Party Games",
+        "price": "12.79",
+        "rating": 4.3,
+        "affiliateLink": "https://amzn.to/3W4xTlH",
+        "image": "https://m.media-amazon.com/images/I/71Ak1+wMyAL._AC_SX569_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470783089,
+        "isCustomCategory": true,
+        "priceValue": 12.79
+    },
+    {
+        "title": "TW SHINE Purple Orange and Green Halloween Lights, 20FT 100 Count Incandescent Mini String Lights, Waterproof Halloween Decorations for Outdoor Indoor Patio Home Party Garden Yard Decor",
+        "price": "15.99",
+        "rating": 4.5,
+        "affiliateLink": "https://amzn.to/42JVWdi",
+        "image": "https://m.media-amazon.com/images/I/81SPyDQmwUL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470776251,
+        "isCustomCategory": true,
+        "priceValue": 15.99
+    },
+    {
+        "title": "BILLMOSS Halloween Pumpkin Squishy Toys - 12PCS 6 Colors Stress Relief Ghost Toy for Trick or Treat Party Suppliers Party Favors Halloween Goodie Bag Fillers for Kids Adults",
+        "price": "18.99",
+        "rating": 4.2,
+        "affiliateLink": "https://amzn.to/4nPBH6d",
+        "image": "https://m.media-amazon.com/images/I/71n2aJ1tLRL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470780111,
+        "isCustomCategory": true,
+        "priceValue": 18.99
+    },
+    {
+        "title": "Basic Witch Halloween T Shirt Women Vintage Graphic Coffee Tees Shirt Short Sleeve Casual Funny Halloween Party Shirts",
+        "price": "16.98",
+        "rating": 4.6,
+        "affiliateLink": "https://amzn.to/4mBwYnM",
+        "image": "https://m.media-amazon.com/images/I/712IcGa+I4L._AC_SX466_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470779273,
+        "isCustomCategory": true,
+        "priceValue": 16.98
+    },
+    {
+        "title": "Fall Shirts for Women Halloween Pumpkin Graphic Tees Thanksgiving Family Turkey Tops Cute Autumn Thanksgiving T-Shirt",
+        "price": "15.99",
+        "rating": 4.6,
+        "affiliateLink": "https://amzn.to/4nMP871",
+        "image": "https://m.media-amazon.com/images/I/714COja66kL._AC_SX522_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470778703,
+        "isCustomCategory": true,
+        "priceValue": 15.99
+    },
+    {
+        "title": "Halloween Decor Indoor-Halloween Gifts Candles for Women with LED Pumpkin Face,Fall Candles with Pumpkin Spice Scent Over 40 Hours of Burn Time, Gift for Home Fall Decorations Indoor, 100% Soy Wax",
+        "price": "9.99",
+        "rating": 4.4,
+        "affiliateLink": "https://amzn.to/42N1bsJ",
+        "image": "https://m.media-amazon.com/images/I/71q1Ko8Jz1L._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470782203,
+        "isCustomCategory": true,
+        "priceValue": 9.99
+    },
+    {
+        "title": "Giant Jack O' Lantern Face | Halloween Pumpkin Fun Unisex T-Shirt for Men Women",
+        "price": "14.99",
+        "rating": 4.5,
+        "affiliateLink": "https://amzn.to/4nQcYij",
+        "image": "https://m.media-amazon.com/images/I/51gA9mQorAL._AC_SY550_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470777367,
+        "isCustomCategory": true,
+        "priceValue": 14.99
+    },
+    {
+        "title": "Liquid Blue Men's Vampire Skulls T-Shirt",
+        "price": "13.88",
+        "rating": 4.8,
+        "affiliateLink": "https://amzn.to/4pDjU3V",
+        "image": "https://m.media-amazon.com/images/I/813BhuYStTS._AC_SX522_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470776719,
+        "isCustomCategory": true,
+        "priceValue": 13.88
+    },
+    {
+        "title": "Funny Skeleton T Shirts Hilarious Mens Halloween Tees with Vampires and Bones for Guys",
+        "price": "9.99",
+        "rating": 4.6,
+        "affiliateLink": "https://amzn.to/3KDVV4o",
+        "image": "https://m.media-amazon.com/images/I/613h5G7FjdL._AC_SX522_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470779594,
+        "isCustomCategory": true,
+        "priceValue": 9.99
+    },
+    {
+        "title": "2 PACKS Halloween Pumpkin Mug Set 14 oz-Cute and Spooky Ceramic Coffee Mugs for Fall Halloween Party Home Decor",
+        "price": "11.99",
+        "rating": 4.8,
+        "affiliateLink": "https://amzn.to/48x7TXz",
+        "image": "https://m.media-amazon.com/images/I/71+hJ+gdLNL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470777352,
+        "isCustomCategory": true,
+        "priceValue": 11.99
+    },
+    {
+        "title": "Hyturtle Cute Ghost Read Book Mug - Black Coffee Cup Ceramic Mug 15 Oz And Keychain - Book Gifts For Women Lover - Bookish Gift For Bookworm Librarian - Inspirational Librarian Present For Halloween",
+        "price": "23.95",
+        "rating": 4.9,
+        "affiliateLink": "https://amzn.to/46AKGkS",
+        "image": "https://m.media-amazon.com/images/I/71leXNri79L._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470780885,
+        "isCustomCategory": true,
+        "priceValue": 23.95
+    },
+    {
+        "title": "Pumpkin Carving Kit Tools Halloween, 13PCS Professional Heavy Duty Carving Set, Stainless Steel Double-side Sculpting Tool Carving Kit for Halloween Decoration Jack-O-Lanterns",
+        "price": "19.96",
+        "rating": 4.5,
+        "affiliateLink": "https://amzn.to/4pCEPUP",
+        "image": "https://m.media-amazon.com/images/I/81LdjiO0rYL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470781884,
+        "isCustomCategory": true,
+        "priceValue": 19.96
+    },
+    {
+        "title": "Halloween Candy Bowl, Ceramic Pumpkin Candy Dish, Hand-painted Decorative Bowl for Halloween Home Decor, Office Treats, Party Snacks, 6.5 Inch, 28 Oz",
+        "price": "24.99",
+        "rating": 4.8,
+        "affiliateLink": "https://amzn.to/4pEIrFO",
+        "image": "https://m.media-amazon.com/images/I/71K6JGpNazL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470780420,
+        "isCustomCategory": true,
+        "priceValue": 24.99
+    },
+    {
+        "title": "Eldnacele Halloween LED Flameless Flickering Candles Battery Operated with 6H Timer Skull Spider Web Crow Raven Spooky Decals Halloween Themed Indoor Decoration(3 Pack, D3 x H6)",
+        "price": "19.75",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/4nkcPnt",
+        "image": "https://m.media-amazon.com/images/I/71L7n9KMbrL._AC_SL1000_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470780789,
+        "isCustomCategory": true,
+        "priceValue": 19.75
+    },
+    {
+        "title": "Halloween Decorations Indoor - Vintage Halloween Skeleton Candles Decor Gifts - Cute Farmhouse Gothic Party Birthday Candle Decoration Centerpieces for Table Home Room Mantel Office Kitchen",
+        "price": "26.99",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/46rv9n6",
+        "image": "https://m.media-amazon.com/images/I/719W7Hj-CfL._AC_SX522_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470780375,
+        "isCustomCategory": true,
+        "priceValue": 26.99
+    },
+    {
+        "title": "1OAK Halloween Candles Scented - 7oz, Baked Apple Cinnamon - Spooky Candles - Gothic Décor Decorations - Halloween Gifts for Women, Men - Horror Candle",
+        "price": "13.95",
+        "rating": 4.3,
+        "affiliateLink": "https://amzn.to/3KbdCIG",
+        "image": "https://m.media-amazon.com/images/I/61Ar0Qrx8rL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470779357,
+        "isCustomCategory": true,
+        "priceValue": 13.95
+    },
+    {
+        "title": "Pumpkin Decor 12pcs Artificial Fake Faux Velvet Foam Fabric Pumpkins Decoration for Fall Home Farmhouse Harvest Thanksgiving Decorative",
+        "price": "16.99",
+        "rating": 4.5,
+        "affiliateLink": "https://amzn.to/46z7AsB",
+        "image": "https://m.media-amazon.com/images/I/81hK+PBsQPL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470782321,
+        "isCustomCategory": true,
+        "priceValue": 16.99
+    },
+    {
+        "title": "Artgar Pumpkin Decor, 8 PCS Halloween Pumpkin, Metal Cracked Design Foam Pumpkins for Halloween Thanksgiving Fall Home Table Indoor Outdoor Decorations",
+        "price": "13.76",
+        "rating": 4.3,
+        "affiliateLink": "https://amzn.to/46ySCTxhttps://amzn.to/46ySCTx",
+        "image": "https://m.media-amazon.com/images/I/91BAGB0aQzL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470776680,
+        "isCustomCategory": true,
+        "priceValue": 13.76
+    },
+    {
+        "title": "winemana 46 Pcs Assorted Size Artificial Pumpkins Fall Decorations, Orange Foam Pumpkin Autumn Decor, Decorative Faux Pumpkin for Harvest Thanksgiving Table Centerpiece Mantle Bowl Wedding Party",
+        "price": "24.69",
+        "rating": 4.3,
+        "affiliateLink": "https://amzn.to/4pIIRLq",
+        "image": "https://m.media-amazon.com/images/I/81ZMub3BSML._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470780919,
+        "isCustomCategory": true,
+        "priceValue": 24.69
+    },
+    {
+        "title": "winemana Pumpkins Fall Decor Set of 3 - Artificial Resin Thanksgiving Table Centerpiece for Home Mantel Porch Office & Farmhouse, Decorative Elegant Pumpkin Autumn Harvest",
+        "price": "19.99",
+        "rating": 4.3,
+        "affiliateLink": "https://amzn.to/4mA8CuB",
+        "image": "https://m.media-amazon.com/images/I/81hTahfL-7L._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470774698,
+        "isCustomCategory": true,
+        "priceValue": 19.99
+    },
+    {
+        "title": "NymphFable Halloween Hand Painted Wine Glass Pumpkin Black Cat Spider Cobwebs Ghosts Unique Halloween Wine Glass for Home Party Friend (2024 Update)",
+        "price": "19.71",
+        "rating": 4.5,
+        "affiliateLink": "https://amzn.to/48x8CIh",
+        "image": "https://m.media-amazon.com/images/I/61ynbcQDIdL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470780033,
+        "isCustomCategory": true,
+        "priceValue": 19.71
+    },
+    {
+        "title": "JOYIN 72PCS Halloween Drawstring Goody Bags, Halloween Treats Bags, Trick or Treat Bag, Goodie Candy Gift Bag Bulk for Kids Trick or Treating, Party Favors Supplies, 12 Designs Classroom Gifts Prizes",
+        "price": "18.99",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/42C0SRy",
+        "image": "https://m.media-amazon.com/images/I/91x4er9PD0L._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470774495,
+        "isCustomCategory": true,
+        "priceValue": 18.99
+    },
+    {
+        "title": "Soft Cozy Halloween Blanket, Spooky Pumpkin Bat Spider Webs Print White Throws for Couch Bed Home Decoration Gifts, Fuzzy Fleece Halloween Throw Blanket for Kids Adults 50\"x60\" (White)",
+        "price": "17.99",
+        "rating": 4.8,
+        "affiliateLink": "https://amzn.to/3KgMGqY",
+        "image": "https://m.media-amazon.com/images/I/81CSoEg-QkL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470780749,
+        "isCustomCategory": true,
+        "priceValue": 17.99
+    },
+    {
+        "title": "Glow in The Dark Halloween Blanket Gifts for Girls Boys, Soft Pumpkin Blanket 3 4 5 6 7 8 9 10 Year Old Girl Gifts, Girls Toys Age 6-8, Girls Gifts for Birthday, 50\"x60\"",
+        "price": "24.99",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/3VS4Zp3",
+        "image": "https://m.media-amazon.com/images/I/81XO1ODGV5L._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470776563,
+        "isCustomCategory": true,
+        "priceValue": 24.99
+    },
+    {
+        "title": "JOYIN 144 PCS Halloween Bookmark Rulers Party Favor Pack (6 Designs) with Halloween Themed Prints for Holiday Decorations, Goodies, Classroom Rewards, Goodie Bag Stuffer and Kids Trick or Treat Prizes",
+        "price": "14.99",
+        "rating": 4.3,
+        "affiliateLink": "https://amzn.to/4nQUmie",
+        "image": "https://m.media-amazon.com/images/I/A1SS0AT53NL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470774865,
+        "isCustomCategory": true,
+        "priceValue": 14.99
+    },
+    {
+        "title": "NICETOWN Halloween Pitch Black Solid Thermal Insulated Grommet Blackout Curtains/Drapes for Bedroom Window (2 Panels, 42 inches Wide by 63 inches Long, Black)",
+        "price": "42.29",
+        "rating": 4.6,
+        "affiliateLink": "https://amzn.to/3IbRBJa",
+        "image": "https://m.media-amazon.com/images/I/61Xsz1yLEML._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470776160,
+        "isCustomCategory": true,
+        "priceValue": 42.29
+    },
+    {
+        "title": "iShabao Halloween Color Changing Lights with Remote, 300LED 115ft RGB String Lights Halloween Decorative Lights, 8 Modes & Timer Tree Light Indoor Outdoor Waterproof for Xmas Party Decor",
+        "price": "29.99",
+        "rating": 4.6,
+        "affiliateLink": "https://amzn.to/4pF7EzY",
+        "image": "https://m.media-amazon.com/images/I/81lnoGLWfIL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470774443,
+        "isCustomCategory": true,
+        "priceValue": 29.99
+    },
+    {
+        "title": "DenicMic Halloween Solar Lights Outdoor 10 Pack Purple LED Waterproof Yard Garden Patio Backyard Pathway Walkway Landscape Path Lawn Outside Halloween Decorations Outdoor",
+        "price": "26.99",
+        "rating": 4.5,
+        "affiliateLink": "https://amzn.to/4nInx6L",
+        "image": "https://m.media-amazon.com/images/I/81CA9ESbDrL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470775234,
+        "isCustomCategory": true,
+        "priceValue": 26.99
+    },
+    {
+        "title": "JOYIN 2 Pack 5 Ft Halloween Outdoor Decorations Hairy Black Spider, Scary Giant Spider, Fake Large Haunted House Props, Halloween Yard Lawn Decorations Party Indoor Decor",
+        "price": "25.99",
+        "rating": 4.5,
+        "affiliateLink": "https://amzn.to/46yi8IC",
+        "image": "https://m.media-amazon.com/images/I/71sfUfucrML._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470781961,
+        "isCustomCategory": true,
+        "priceValue": 25.99
+    },
+    {
+        "title": "Spooktacular Creations Glowing Eyes Grim Reaper Costume for Kids, Halloween Costume for Boys, Halloween, Dress-up Party",
+        "price": "28.99",
+        "rating": 4.3,
+        "affiliateLink": "https://amzn.to/42GKiQt",
+        "image": "https://m.media-amazon.com/images/I/71P1ozSJAwL._AC_SX522_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470775318,
+        "isCustomCategory": true,
+        "priceValue": 28.99
+    },
+    {
+        "title": "LEGO HLLWN CAT/MOUSE",
+        "price": "49.89",
+        "rating": 4.8,
+        "affiliateLink": "https://amzn.to/428oH3i",
+        "image": "https://m.media-amazon.com/images/I/81enJoxjXiL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470781275,
+        "isCustomCategory": true,
+        "priceValue": 49.89
+    },
+    {
+        "title": "KMiKE Inflatable Shark Costume for Adult(Kids) Funny Halloween Costumes Fantasy Cosplay Blow up Costume",
+        "price": "31.99",
+        "rating": 4.4,
+        "affiliateLink": "https://amzn.to/4pCvdJB",
+        "image": "https://m.media-amazon.com/images/I/41uEZOjiFbL._AC_SX466_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470781803,
+        "isCustomCategory": true,
+        "priceValue": 31.99
+    },
+    {
+        "title": "Maxdot 8 Pcs Halloween Coffee Mugs Bulk 12 oz Coffee Mugs Set with Handle Ceramic Matching for Home Office Table Centerpieces Housewarming Holiday Party Gift",
+        "price": "31.99",
+        "rating": 4,
+        "affiliateLink": "https://amzn.to/4pEY4wP",
+        "image": "https://m.media-amazon.com/images/I/81QogaobZHL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470774611,
+        "isCustomCategory": true,
+        "priceValue": 31.99
+    },
+    {
+        "title": "40 oz Halloween Tumbler with Handle & Straw - Pumpkin Ghost Halloween Gifts for Women, Teens, Adults - Boo Basket Stuffers for Women - Spooky Gifts for Her - Fall Travel Cup Mug Insulated Tumbler",
+        "price": "29.95",
+        "rating": 4.8,
+        "affiliateLink": "https://amzn.to/46C2X0W",
+        "image": "https://m.media-amazon.com/images/I/61eEdH9dbnL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470779154,
+        "isCustomCategory": true,
+        "priceValue": 29.95
+    },
+    {
+        "title": "Silver Buffalo Sanrio Hello Kitty Halloween Jack-O-Lantern Stainless Steel Tumbler with Handle and Straw, Fits in Standard Cup Holder, 40 Ounces",
+        "price": "27.34",
+        "rating": 4.7,
+        "affiliateLink": "https://amzn.to/3VARlGy",
+        "image": "https://m.media-amazon.com/images/I/61Dl8-bls1L._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470777298,
+        "isCustomCategory": true,
+        "priceValue": 27.34
+    },
+    {
+        "title": "JOYIN Halloween Candy Bowl Dish Witch Decorations Indoor, Haunted House Home Decor Animatronics Animated LED Lights Eyes, Creepy Scary Sound Activated Trick Or Treat",
+        "price": "32.99",
+        "rating": 4,
+        "affiliateLink": "https://amzn.to/4nQg6L6",
+        "image": "https://m.media-amazon.com/images/I/71cvGVkuuoL._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470779739,
+        "isCustomCategory": true,
+        "priceValue": 32.99
+    },
+    {
+        "title": "2 Set Halloween Ghost and Pumpkin Stemless Wine Glass Halloween 12 oz Drinking Glasses for Dinner Party Birthday Holiday",
+        "price": "29.99",
+        "rating": 5,
+        "affiliateLink": "https://amzn.to/4njf2zp",
+        "image": "https://m.media-amazon.com/images/I/71YKcnx5sML._AC_SL1500_.jpg",
+        "category": "halloween",
+        "featured": false,
+        "id": 1761470781382,
+        "isCustomCategory": true,
+        "priceValue": 29.99
+    }
+];
+
+// Custom Category Configuration for SEO
+// This automatically updates the <title>, <meta description>, and Open Graph tags
+const customCategoryConfig = {
+    "name": "Amazon Halloween Deals & Gifts 2025",
+    "slug": "amazon-halloween-deals-gifts-2025",
+    "description": "",
+    "enabled": true,
+    "seoTitle": "",
+    "seoDescription": "",
+    "lastUpdated": "2025-10-27T18:03:37.188Z"
+};
+
+// Global variables for special offers page
+let allSpecialOffers = [];
+let currentSpecialOffers = [];
+let filteredSpecialOffers = [];
+
+// Initialize special offers page
+function initializeSpecialOffersPage() {
+    console.log('Initializing special offers page...');
+
+    // Update SEO meta tags and page content if custom config is available
+    updateSEOMetaTags();
+    updatePageContent();
+
+    // Get DOM elements
+    const productsContainer = document.getElementById('products-container');
+    const searchInput = document.getElementById('search');
+
+    if (!productsContainer) {
+        console.error('Products container not found!');
+        return;
+    }
+
+    // Load special offers data
+    loadSpecialOffers();
+
+    // Set up search functionality
+    if (searchInput) {
+        searchInput.addEventListener('input', handleSpecialOffersSearch);
+    }
+
+    // Display all special offers initially
+    filterAndDisplaySpecialOffers('all');
+}
+
+// Load special offers from all available data
+function loadSpecialOffers() {
+    console.log('Loading special offers...');
+
+    // Start with our special offers data
+    allSpecialOffers = [...specialOffersData];
+
+    // If allProductsData is available, add products marked as special offers
+    if (typeof allProductsData !== 'undefined') {
+        const mainSpecialOffers = allProductsData.filter(product =>
+            product.specialOffer || product.featured || product.discount
+        );
+        allSpecialOffers = [...allSpecialOffers, ...mainSpecialOffers];
+    }
+
+    // Ensure all products have priceValue for sorting
+    allSpecialOffers.forEach(product => {
+        if (!product.priceValue) {
+            product.priceValue = parseFloat(product.price) || 0;
+        }
+    });
+
+    console.log('Loaded special offers:', allSpecialOffers.length);
+}
+
+// Update SEO meta tags with custom category configuration
+function updateSEOMetaTags() {
+    if (typeof customCategoryConfig !== 'undefined' && customCategoryConfig) {
+        console.log('Updating SEO meta tags with custom configuration');
+
+        // Update page title (browser tab)
+        if (customCategoryConfig.seoTitle) {
+            document.title = customCategoryConfig.seoTitle + ' | Gift On Budget';
+        } else if (customCategoryConfig.name) {
+            document.title = customCategoryConfig.name + ' | Gift On Budget';
+        }
+
+        // Update meta description
+        if (customCategoryConfig.seoDescription) {
+            const metaDescription = document.querySelector('meta[name="description"]');
+            if (metaDescription) {
+                metaDescription.setAttribute('content', customCategoryConfig.seoDescription);
+            }
+        } else if (customCategoryConfig.description) {
+            const metaDescription = document.querySelector('meta[name="description"]');
+            if (metaDescription) {
+                metaDescription.setAttribute('content', customCategoryConfig.description);
+            }
+        }
+
+        // Update Open Graph title
+        if (customCategoryConfig.seoTitle || customCategoryConfig.name) {
+            const ogTitle = document.querySelector('meta[property="og:title"]');
+            if (ogTitle) {
+                ogTitle.setAttribute('content', customCategoryConfig.seoTitle || customCategoryConfig.name);
+            }
+        }
+
+        // Update Open Graph description
+        if (customCategoryConfig.seoDescription || customCategoryConfig.description) {
+            const ogDescription = document.querySelector('meta[property="og:description"]');
+            if (ogDescription) {
+                ogDescription.setAttribute('content', customCategoryConfig.seoDescription || customCategoryConfig.description);
+            }
+        }
+
+        console.log('SEO meta tags updated successfully');
+    }
+}
+
+// Update page content (H1, description, breadcrumb)
+function updatePageContent() {
+    if (typeof customCategoryConfig !== 'undefined' && customCategoryConfig) {
+        console.log('Updating page content elements');
+
+        // Update breadcrumb title
+        const breadcrumbTitle = document.getElementById('breadcrumb-title');
+        if (breadcrumbTitle && customCategoryConfig.name) {
+            breadcrumbTitle.textContent = customCategoryConfig.name;
+        }
+
+        // Update main category name (H1)
+        const categoryNameElement = document.getElementById('category-name');
+        if (categoryNameElement && customCategoryConfig.name) {
+            categoryNameElement.textContent = customCategoryConfig.name;
+        }
+
+        // Update page description (use Description field, not SEO Description)
+        const pageDescription = document.getElementById('page-description');
+        if (pageDescription) {
+            if (customCategoryConfig.description) {
+                pageDescription.textContent = customCategoryConfig.description;
+            } else if (customCategoryConfig.seoDescription) {
+                pageDescription.textContent = customCategoryConfig.seoDescription;
+            }
+        }
+
+        console.log('Page content updated successfully');
+    }
+}
+
+// Filter and display special offers
+function filterAndDisplaySpecialOffers(budget) {
+    console.log('Filtering special offers by budget:', budget);
+
+    if (allSpecialOffers.length === 0) {
+        loadSpecialOffers();
+    }
+
+    let filteredOffers = [...allSpecialOffers];
+
+    // Apply budget filter
+    if (budget !== 'all') {
+        filteredOffers = filteredOffers.filter(product => {
+            switch(budget) {
+                case 'under-10':
+                    return product.priceValue < 10;
+                case 'under-25':
+                    return product.priceValue >= 10 && product.priceValue < 25;
+                case 'under-50':
+                    return product.priceValue >= 25 && product.priceValue < 50;
+                case 'under-100':
+                    return product.priceValue >= 50 && product.priceValue < 100;
+                default:
+                    return true;
+            }
+        });
+    }
+
+    // Sort by price (highest to lowest)
+    filteredOffers.sort((a, b) => b.priceValue - a.priceValue);
+
+    // Store current filtered offers
+    currentSpecialOffers = filteredOffers;
+    filteredSpecialOffers = [...filteredOffers];
+
+    console.log('Filtered special offers:', filteredOffers.length);
+
+    // Render the products
+    renderSpecialOffers(filteredOffers);
+}
+
+// Handle search functionality
+function handleSpecialOffersSearch(event) {
+    const searchTerm = event.target.value.toLowerCase().trim();
+
+    if (searchTerm === '') {
+        // Show all current special offers if search is empty
+        renderSpecialOffers(currentSpecialOffers);
+        return;
+    }
+
+    // Filter current special offers by search term
+    const searchResults = currentSpecialOffers.filter(product =>
+        product.title.toLowerCase().includes(searchTerm)
+    );
+
+    renderSpecialOffers(searchResults);
+}
+
+// Render special offers products
+function renderSpecialOffers(offers) {
+    console.log('Rendering special offers:', offers.length);
+
+    const productsContainer = document.getElementById('products-container');
+    const noResults = document.getElementById('no-results');
+
+    if (!productsContainer) {
+        console.error('Products container not found!');
+        return;
+    }
+
+    if (offers.length === 0) {
+        console.log('No special offers to display');
+        productsContainer.innerHTML = '';
+        if (noResults) noResults.style.display = 'block';
+        return;
+    }
+
+    if (noResults) noResults.style.display = 'none';
+
+    // Generate product cards HTML
+    const productsHTML = offers.map(product => createSpecialOfferCard(product)).join('');
+    productsContainer.innerHTML = productsHTML;
+
+    console.log('Successfully rendered', offers.length, 'special offers');
+}
+
+// Create special offer product card
+function createSpecialOfferCard(product) {
+    const stars = '★'.repeat(Math.floor(product.rating)) +
+                 (product.rating % 1 >= 0.5 ? '☆' : '') +
+                 '☆'.repeat(5 - Math.ceil(product.rating));
+
+    // Only show special offer badge if product has discount info or is marked as special offer
+    const specialOfferBadge = product.discount ?
+        `<div class="special-offer-badge">${product.discount} OFF</div>` :
+        (product.specialOffer ? `<div class="special-offer-badge">Special Offer</div>` : '');
+
+    // Only show original price if it exists
+    const originalPriceDisplay = product.originalPrice ?
+        `<span class="original-price">$${product.originalPrice}</span>` : '';
+
+    // Use appropriate class for price styling
+    const priceClass = product.originalPrice ? 'current-price' : 'product-price';
+
+    return `
+        <div class="product-card ${specialOfferBadge ? 'special-offer-card' : ''}" data-id="${product.id}" data-affiliate-link="${product.affiliateLink}" onclick="handleProductCardClick(event, '${product.affiliateLink}')" style="cursor: pointer;">
+            ${specialOfferBadge}
+            <img src="${product.image}" alt="${product.title}" class="product-image" loading="lazy" onclick="handleProductImageClick(event, '${product.affiliateLink}')">
+            <div class="product-info">
+                <h3 class="product-title">${product.title}</h3>
+                <div class="product-rating" style="color: #ff9900; margin-bottom: 0.5rem;">
+                    ${stars} (${product.rating})
+                </div>
+                <div class="${originalPriceDisplay ? 'product-price' : 'product-price'}">
+                    ${originalPriceDisplay}
+                    <span class="${priceClass}">$${product.price}</span>
+                </div>
+                <a href="${product.affiliateLink}" target="_blank" rel="noopener" class="product-btn">
+                    View on Amazon
+                </a>
+            </div>
+        </div>
+    `;
+}
+
+// Handle product card click - fallback function if not defined elsewhere
+function handleProductCardClick(event, affiliateLink) {
+    if (event.target.tagName === 'A') {
+        return; // Let the link handle its own click
+    }
+    window.open(affiliateLink, '_blank', 'noopener');
+}
+
+// Handle product image click - fallback function if not defined elsewhere
+function handleProductImageClick(event, affiliateLink) {
+    event.stopPropagation();
+    window.open(affiliateLink, '_blank', 'noopener');
+}
+
+// Export for use in main script
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { specialOffersData, initializeSpecialOffersPage, filterAndDisplaySpecialOffers };
+}
