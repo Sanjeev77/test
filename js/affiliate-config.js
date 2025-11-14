@@ -4,8 +4,9 @@
 (function() {
     'use strict';
 
-    // Server-side redirect path
-    const REDIRECT_PATH = '/redirect.php';
+    // Redirect path - use .html for GitHub Pages (static hosting)
+    // Change to .php if using PHP hosting
+    const REDIRECT_PATH = '/redirect.html';
 
     // Affiliate tags for different Amazon marketplaces
     const AFFILIATE_CONFIG = {
